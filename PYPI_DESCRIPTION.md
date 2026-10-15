@@ -1,0 +1,500 @@
+# Bhashini Client SDK (Python)
+
+`bhashini-client-sdk` is a Python SDK for working with Bhashini inference APIs through a unified `BhashiniClient`.
+
+It provides a clean interface for speech, text, speaker, normalization, OCR, and image-language workflows while keeping validation, payload construction, model routing, and response parsing inside dedicated service modules.
+
+## Overview
+
+Supported service categories:
+
+| Category | Services |
+| --- | --- |
+| Speech / Audio | ASR, TTS, Audio Language Detection, Speaker Diarization, Speaker Enrollment, Speaker Verification, Voice Cloning, Denoiser |
+| Text | NMT, Transliteration, Text Language Detection, Text Normalization, Inverse Text Normalization, NER |
+| Vision | OCR, Image Language Detection |
+
+Each service includes:
+
+- input validation
+- payload construction
+- API dispatch through a shared request handler
+- response parsing into simple SDK outputs
+
+## Installation
+
+Requirements:
+
+- Python `3.8+`
+
+Install from PyPI:
+
+```bash
+pip install bhashini-client-sdk
+```
+
+For Google Colab:
+
+```python
+%pip install -U bhashini-client-sdk
+```
+
+## Authentication
+
+Set the API key through `BHASHINI_API_KEY` or pass it directly to the client.
+
+Environment variable:
+
+```powershell
+$env:BHASHINI_API_KEY="your_api_key"
+```
+
+Or in code:
+
+```python
+from bhashini_client import BhashiniClient
+
+client = BhashiniClient(api_key="your_api_key")
+```
+
+In notebooks and Colab, prefer `getpass` so the key is not printed or saved directly in the notebook:
+
+```python
+import os
+from getpass import getpass
+from bhashini_client import BhashiniClient
+
+os.environ["BHASHINI_API_KEY"] = getpass("Enter BHASHINI API key: ")
+client = BhashiniClient(os.environ["BHASHINI_API_KEY"])
+
+print("API key loaded:", bool(client.handler.api_key))
+```
+
+## Use In Colab, Notebook, And VS Code
+
+### Google Colab
+
+Run these cells in order in every new Colab runtime:
+
+```python
+%pip install -U bhashini-client-sdk
+```
+
+```python
+import os
+from getpass import getpass
+from bhashini_client import BhashiniClient
+
+os.environ["BHASHINI_API_KEY"] = getpass("Enter BHASHINI API key: ")
+client = BhashiniClient(os.environ["BHASHINI_API_KEY"])
+
+print("API key loaded:", bool(client.handler.api_key))
+```
+
+Upload local files before using audio or image services:
+
+```python
+from google.colab import files
+
+uploaded = files.upload()
+file_path = list(uploaded.keys())[0]
+print("Uploaded:", file_path)
+```
+
+Colab runs on a remote machine, so local paths such as `C:\Users\name\Downloads\sample.wav` do not work there. Use the uploaded filename, for example `sample.wav`.
+
+### Jupyter Notebook
+
+```python
+%pip install -U bhashini-client-sdk
+```
+
+```python
+import os
+from getpass import getpass
+from bhashini_client import BhashiniClient
+
+os.environ["BHASHINI_API_KEY"] = getpass("Enter BHASHINI API key: ")
+client = BhashiniClient(os.environ["BHASHINI_API_KEY"])
+```
+
+### VS Code Or Local Python
+
+Install in your terminal:
+
+```bash
+pip install -U bhashini-client-sdk
+```
+
+Set the API key in PowerShell:
+
+```powershell
+$env:BHASHINI_API_KEY="your_api_key"
+```
+
+Use it in Python:
+
+```python
+import os
+from bhashini_client import BhashiniClient
+
+client = BhashiniClient(os.environ["BHASHINI_API_KEY"])
+print(client.nmt("Hello", "en", "hi"))
+```
+
+## Quick Start
+
+Minimal text translation check:
+
+```python
+import os
+from bhashini_client import BhashiniClient
+
+client = BhashiniClient(os.environ["BHASHINI_API_KEY"])
+
+print(client.text_language_detection("Hello world"))
+print(client.nmt("Hello", "en", "hi"))
+```
+
+Choose a specific Bhashini backend model by passing `service_id`:
+
+```python
+print(
+    client.nmt(
+        "Hello",
+        "en",
+        "hi",
+        service_id="bhashini/iiith/nmt-all",
+    )
+)
+```
+
+Upload and test an audio file in Colab:
+
+```python
+from google.colab import files
+from bhashini_client import BhashiniClient
+import os
+
+uploaded = files.upload()
+audio_path = list(uploaded.keys())[0]
+
+client = BhashiniClient(os.environ["BHASHINI_API_KEY"])
+
+print(client.audio_language_detection(audio_path))
+print(client.asr(audio_path, "hi"))
+```
+
+Generate TTS output:
+
+```python
+from IPython.display import Audio, display
+
+output_path = client.tts("Hello from Bhashini", "en", output_file="output.wav")
+print(output_path)
+display(Audio(output_path))
+```
+
+Important Colab notes:
+
+- Run `%pip install -U bhashini-client-sdk` in every new runtime.
+- Do not use Windows paths like `C:\Users\...\sample.wav` in Colab. Upload the file and use the uploaded filename.
+- Do not overwrite a working authenticated client with `client = BhashiniClient()` unless `BHASHINI_API_KEY` is already set in the same runtime.
+- Audio services work best with WAV audio containing real speech. ASR and Audio Language Detection normalize many WAV files internally, but 16 kHz mono WAV is the safest format.
+
+## Common Service Examples
+
+### Discover Service IDs
+
+Use model discovery when you want to choose a specific Bhashini backend model:
+
+```python
+from bhashini_client import get_available_models
+
+print(get_available_models("nmt", language=("en", "hi")))
+print(get_available_models("asr", language="hi"))
+print(get_available_models("tts", language="en"))
+```
+
+Then pass one returned `serviceId` value:
+
+```python
+models = get_available_models("nmt", language=("en", "hi"))
+service_id = models[0]["serviceId"]
+
+print(client.nmt("Hello", "en", "hi", service_id=service_id))
+```
+
+### NMT
+
+```python
+print(client.nmt("Hello, how are you?", "en", "hi"))
+```
+
+### ASR
+
+```python
+print(client.asr("sample.wav", "hi"))
+```
+
+### Audio Language Detection
+
+```python
+print(client.audio_language_detection("sample.wav"))
+```
+
+### TTS
+
+```python
+from IPython.display import Audio, display
+
+output_path = client.tts("Hello from Bhashini", "en", output_file="output.wav")
+print(output_path)
+display(Audio(output_path))
+```
+
+### Transliteration
+
+```python
+print(client.transliteration("namaste", "en", "hi"))
+```
+
+### Text Language Detection
+
+```python
+print(client.text_language_detection("Hello world"))
+```
+
+### OCR And Image Language Detection
+
+```python
+print(client.ocr("sample.png", "en"))
+print(client.image_language_detection("sample.png"))
+```
+
+### NER
+
+```python
+print(client.ner("Narendra Modi went to Delhi.", "en"))
+```
+
+### Speaker Services
+
+```python
+speaker_id = client.speaker_enrollment("sample.wav", "demo_speaker")
+print(speaker_id)
+
+print(client.speaker_verification("sample.wav", speaker_id))
+print(client.speaker_diarization("sample.wav"))
+```
+
+### Voice Cloning
+
+```python
+print(
+    client.voice_cloning(
+        "Hello from Bhashini",
+        "This is the reference voice sample.",
+        "reference.wav",
+        source_lang="en",
+        output_file="voice_clone_output.wav",
+    )
+)
+```
+
+### Text Normalization, ITN, And Denoiser
+
+```python
+print(client.text_normalization("i got 2065778 rupees prize", "en"))
+print(client.inverse_text_normalization("i got five thousand rupees prize", "en"))
+print(client.denoiser("sample.wav", output_file="denoised_output.wav"))
+```
+
+## Public Client Methods
+
+| Method | Purpose | Return Type |
+| --- | --- | --- |
+| `client.asr(audio_input, source_lang, service_id=None)` | Speech to text | `str` transcription |
+| `client.nmt(text, source_lang, target_lang, service_id=None)` | Translation | `str` translated text |
+| `client.tts(text, source_lang, gender="female", output_file="output.wav", service_id=None)` | Text to speech | output file path `str` |
+| `client.transliteration(text, source_lang, target_lang, service_id=None)` | Script conversion | transliterated text `str` |
+| `client.text_language_detection(text, service_id=None)` | Text language detection | language code `str` |
+| `client.audio_language_detection(audio_input, service_id=None)` | Audio language detection | language code `str` |
+| `client.ocr(image_path, source_lang, service_id=None)` | OCR from local image | extracted text `str` |
+| `client.ner(text, source_lang, service_id=None)` | Named entity recognition | `dict` with `entities` |
+| `client.speaker_diarization(audio_input, service_id=None)` | Speaker segmentation | `list` of speaker blocks |
+| `client.speaker_enrollment(audio_input, speaker_name, service_id=None)` | Speaker profile creation | speaker ID `str` |
+| `client.speaker_verification(audio_input, speaker_id, service_id=None)` | Speaker verification | verification result |
+| `client.voice_cloning(text, ref_text, ref_audio_input, source_lang="te", output_file="voice_clone_output.wav", service_id=None)` | Voice cloning | output file path `str` |
+| `client.image_language_detection(image_input, service_id=None)` | Image language detection | language code `str` |
+| `client.text_normalization(text, source_lang="en", service_id=None)` | Text normalization | normalized text `str` |
+| `client.inverse_text_normalization(text, source_lang="en", service_id=None)` | ITN | normalized text `str` |
+| `client.denoiser(audio_input, output_file="denoised_output.wav", service_id=None)` | Audio denoising | output file path `str` or audio URI `str` |
+
+If `service_id` is omitted, the SDK uses its default model routing. If `service_id` is provided, the SDK validates that model against the service and language before calling the API.
+
+## Service Highlights
+
+### ASR
+
+- Supports local WAV input, base64 audio, and audio URI input
+- Supports validated pre-processors: `vad`, `denoiser`
+- Supports post-processors: `itn`, `punctuation`
+- Automatically normalizes mismatched WAV sampling rates to `16000 Hz` before dispatch
+
+### ASR Streaming
+
+ASR streaming uses the WebSocket API and sends audio as chunks. The streaming API expects 16 kHz mono PCM audio chunks.
+
+In Colab, convert an uploaded WAV file to the expected format first:
+
+```python
+import subprocess
+
+input_audio = "sample.wav"
+stream_audio = "stream_16k_mono.wav"
+
+subprocess.run(
+    [
+        "ffmpeg", "-y",
+        "-i", input_audio,
+        "-ac", "1",
+        "-ar", "16000",
+        "-sample_fmt", "s16",
+        stream_audio,
+    ],
+    check=True,
+)
+```
+
+Then stream chunks:
+
+```python
+import wave
+
+def wav_chunks(path, chunk_ms=200):
+    with wave.open(path, "rb") as wf:
+        frames_per_chunk = int(wf.getframerate() * chunk_ms / 1000)
+        while True:
+            data = wf.readframes(frames_per_chunk)
+            if not data:
+                break
+            yield data
+
+result = await client.asr_stream(
+    wav_chunks(stream_audio),
+    "hi",
+    receive_timeout=15,
+    chunk_delay_seconds=0.05,
+    return_details=True,
+    audio_sample_format="int16",
+)
+
+print(result.get("transcript") if isinstance(result, dict) else result)
+```
+
+In a normal Python script where no event loop is already running, you can use the sync wrapper:
+
+```python
+result = client.asr_stream_sync(
+    wav_chunks("stream_16k_mono.wav"),
+    "hi",
+    receive_timeout=15,
+    chunk_delay_seconds=0.05,
+)
+
+print(result)
+```
+
+### NMT
+
+- Supports translation across validated language pairs
+- Supports optional `glossary`, `domain`, `gender`, `enable_number_translation`, and `profanity_filter`
+- Supports `pre_processors=["html"]`
+- Supports `post_processors=["glossary"]`
+
+### TTS
+
+- Generates WAV output files through the public client
+- Advanced service usage supports `speed`, `speaker_name`, `text_normalization`, `profanity_filter`, and `return_base64`
+
+### Transliteration
+
+- Supports suggestion count, sentence mode, and `numeric_transliteration`
+
+### Text Language Detection
+
+- Detects the top language code from input text
+
+### Audio Language Detection
+
+- Supports local WAV input, base64 audio, and audio URI input
+- Automatically normalizes mismatched WAV sampling rates to `16000 Hz` before dispatch
+
+### OCR
+
+- Extracts text from a local image file
+
+### NER
+
+- Extracts named entities and returns a normalized `{"entities": [...]}` structure
+
+### Speaker Services
+
+- Enrollment supports local audio, base64 audio, and audio URI input
+- Verification supports local audio, base64 audio, and audio URI input
+- Diarization returns speaker segments with timestamps
+
+### Voice Cloning
+
+- Generates speech from reference text and reference audio
+
+### Image Language Detection
+
+- Supports local image path, public image URL, and base64 image content
+
+### Text Normalization and ITN
+
+- Dedicated normalization endpoints for written-form cleanup and inverse text normalization
+
+### Denoiser
+
+- Supports local audio, base64 audio, and audio URI input
+
+## Model Discovery
+
+```python
+from bhashini_client import get_models_info, get_available_models
+
+print(get_models_info("asr"))
+print(get_available_models("asr", language="hi"))
+print(get_available_models("nmt", language=("en", "hi")))
+print(get_available_models("tts", language="en"))
+```
+
+Use one of the returned `serviceId` values in a public method:
+
+```python
+models = get_available_models("nmt", language=("en", "hi"))
+service_id = models[0]["serviceId"]
+
+print(client.nmt("Hello", "en", "hi", service_id=service_id))
+```
+
+## Error Handling
+
+Services return structured string errors with these prefixes:
+
+- `Input Error:`
+- `Validation Error:`
+- `API Error:`
+
+## Package Contents
+
+- `bhashini_client.BhashiniClient`
+- `bhashini_client.get_models_info`
+- `bhashini_client.get_available_models`
+
+## License
+
+MIT

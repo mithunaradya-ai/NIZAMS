@@ -1,0 +1,24 @@
+[Unit]
+Description=Multilingual Government Schemes Kiosk
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=notify
+NotifyAccess=main
+User=kiosk
+Group=kiosk
+SupplementaryGroups=audio
+WorkingDirectory=/opt/scheme-kiosk
+EnvironmentFile=/opt/scheme-kiosk/.env
+ExecStart=/opt/scheme-kiosk/.venv/bin/python -m kiosk_app
+Restart=always
+RestartSec=3
+WatchdogSec=60
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/opt/scheme-kiosk/data
+
+[Install]
+WantedBy=multi-user.target

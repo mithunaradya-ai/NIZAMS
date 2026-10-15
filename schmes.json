@@ -1,0 +1,1932 @@
+[
+  {
+    "schemeId": "central-pm-kisan",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "category": ["agriculture", "farmer-income-support"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["direct-benefit-transfer"],
+    "summary": "Income support for eligible farmer families, paid in instalments. The portal reports suspected exclusion cases and advises beneficiaries to check their status.",
+    "benefitDetails": {
+      "amount": "₹6,000 per year, subject to current eligibility and scheme rules",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Eligible farmer families, subject to landholding, exclusion criteria, and current government rules. Verify the applicant's status on the official portal.",
+    "applicationRoute": "Use the official PM-KISAN portal or visit the local agriculture office / Common Service Centre for assistance.",
+    "officialSources": [
+      {
+        "url": "https://pmkisan.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["scheme information", "status checking", "exclusion notice"]
+      }
+    ],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal accessible during collection. Confirm current eligibility and instalment status for each applicant."
+  },
+  {
+    "schemeId": "central-pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": ["agriculture", "crop-insurance", "risk-protection"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["insurance"],
+    "summary": "Crop insurance programme for notified crops and areas against covered crop-loss risks.",
+    "benefitDetails": {
+      "amount": "Claim depends on notified crop, insured area, sum insured, and assessed loss",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Farmers growing notified crops in notified areas during the notified season; enrolment windows and conditions vary by season and state.",
+    "applicationRoute": "Check the current season and district notification on the official PMFBY portal; enrolment routes can include banks, approved channels, or the portal.",
+    "officialSources": [
+      {
+        "url": "https://pmfby.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["scheme identity", "crop insurance"]
+      }
+    ],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal accessible. Check current Tamil Nadu crop/district notification and application deadline before advising."
+  },
+  {
+    "schemeId": "central-pmksy-per-drop-more-crop",
+    "name": "Pradhan Mantri Krishi Sinchayee Yojana – Per Drop More Crop",
+    "category": ["agriculture", "irrigation", "water-efficiency"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-subsidy", "technical-support"],
+    "summary": "Supports improved farm-level water-use efficiency, particularly micro-irrigation such as drip and sprinkler systems.",
+    "benefitDetails": {
+      "amount": "Assistance varies by applicant category and current state guidelines",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Farmers and land parcels meeting the current state implementation rules; verify crop, area, equipment, and applicant-category conditions.",
+    "applicationRoute": "Check with the Tamil Nadu Agriculture / Horticulture Department or local block agriculture office for current application and approved suppliers.",
+    "officialSources": [
+      {
+        "url": "https://pmksy.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["programme objectives", "micro-irrigation focus"]
+      },
+      {
+        "url": "https://www.tnagrisnet.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state agriculture portal"]
+      }
+    ],
+    "status": "active-programme",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Central programme information checked; current Tamil Nadu subsidy rates and application availability were not confirmed."
+  },
+  {
+    "schemeId": "central-soil-health-card",
+    "name": "Soil Health Card",
+    "category": ["agriculture", "soil-testing", "advisory"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["diagnostic-service", "technical-advice"],
+    "summary": "Soil testing and nutrient-management information to help farmers make informed fertilizer and soil-management decisions.",
+    "benefitDetails": {
+      "amount": "Not a cash subsidy",
+      "verificationRequired": false
+    },
+    "eligibilitySummary": "Farmers can seek soil testing and card information through designated state agriculture channels; local sampling arrangements may vary.",
+    "applicationRoute": "Use the official portal or contact the local agriculture extension office for soil sampling and card availability.",
+    "officialSources": [
+      {
+        "url": "https://soilhealth.dac.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["soil health card service"]
+      },
+      {
+        "url": "https://agritech.tnau.ac.in/",
+        "sourceType": "Tamil Nadu Agricultural University extension portal",
+        "supports": ["Tamil Nadu crop and agriculture guidance"]
+      }
+    ],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal reachable; local sampling and service availability should be confirmed."
+  },
+  {
+    "schemeId": "central-kisan-credit-card",
+    "name": "Kisan Credit Card (KCC) – Agriculture",
+    "category": ["agriculture", "credit", "farm-working-capital"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-credit"],
+    "summary": "Bank credit facility intended to meet eligible farmers' cultivation and related working-capital needs.",
+    "benefitDetails": {
+      "amount": "Credit limit and interest terms depend on bank assessment and current rules",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Eligible farmers and other categories recognized under current KCC guidelines; the lending bank determines documentation and sanctioned limit.",
+    "applicationRoute": "Apply through a participating bank or seek help from the local agriculture office / Common Service Centre.",
+    "officialSources": [
+      {
+        "url": "https://www.myscheme.gov.in/",
+        "sourceType": "official-scheme-discovery-portal",
+        "supports": ["scheme discovery"]
+      },
+      {
+        "url": "https://www.nabard.org/",
+        "sourceType": "official development-finance institution",
+        "supports": ["agriculture credit information"]
+      }
+    ],
+    "status": "verify-current-bank-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "A single authoritative KCC application page was not confirmed in this collection. Do not promise a loan or interest benefit."
+  },
+  {
+    "schemeId": "central-pm-kusum",
+    "name": "PM-KUSUM",
+    "category": ["agriculture", "renewable-energy", "irrigation"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-subsidy", "solar-equipment"],
+    "summary": "Programme supporting eligible solar-energy components for agriculture, including solar pumps and related installations.",
+    "benefitDetails": {
+      "amount": "Component, applicant contribution, subsidy and application window must be checked in current Tamil Nadu notifications",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Depends on component, applicant type, location, and current state allocation.",
+    "applicationRoute": "Use the official MNRE programme information and confirm Tamil Nadu application availability with the designated state nodal agency.",
+    "officialSources": [
+      {
+        "url": "https://pmkusum.mnre.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["programme information"]
+      },
+      {
+        "url": "https://mnre.gov.in/",
+        "sourceType": "official-ministry",
+        "supports": ["MNRE programme guidance"]
+      }
+    ],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Current Tamil Nadu component availability and subsidy rates were not confirmed."
+  },
+  {
+    "schemeId": "central-mgnrega",
+    "name": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+    "category": ["rural-development", "employment", "water-conservation", "community-assets"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["wage-employment", "community-works"],
+    "summary": "Rural wage-employment programme; works can include locally approved natural-resource and community-asset activities.",
+    "benefitDetails": {
+      "amount": "Wage rates and work availability depend on current state notifications and approved works",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Rural household members meeting the Act's requirements and seeking unskilled manual work; job-card and work-demand processes apply.",
+    "applicationRoute": "Contact the Gram Panchayat / local programme officer; use the official portal for programme information and records.",
+    "officialSources": [
+      {
+        "url": "https://nrega.dord.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["MGNREGA programme information"]
+      }
+    ],
+    "status": "active-programme",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Official portal redirects to the current MGNREGA site. Local wage rate and work demand must be checked locally."
+  },
+  {
+    "schemeId": "central-day-nrlm",
+    "name": "Deendayal Antyodaya Yojana – National Rural Livelihoods Mission (DAY-NRLM)",
+    "category": ["rural-development", "self-help-groups", "livelihoods", "women"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["group-livelihood-support", "capacity-building", "financial-linkage"],
+    "summary": "Rural livelihoods mission that organizes and supports eligible rural households through self-help groups and livelihood institutions.",
+    "benefitDetails": {
+      "amount": "Support varies by activity, group, and state implementation",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Rural households participating through eligible SHGs and mission institutions; local selection and support vary.",
+    "applicationRoute": "Contact the local SHG federation, block mission management unit, or Tamil Nadu rural livelihoods mission office.",
+    "officialSources": [
+      {
+        "url": "https://aajeevika.gov.in/",
+        "sourceType": "official-programme-portal",
+        "supports": ["national rural livelihoods mission"]
+      },
+      {
+        "url": "https://www.tnrd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["Rural Development and Panchayat Raj Department"]
+      }
+    ],
+    "status": "active-programme",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Tamil Nadu department homepage was reachable, but programme-specific details were not extracted. Verify local implementation and contact."
+  },
+  {
+    "schemeId": "central-pmayg",
+    "name": "Pradhan Mantri Awaas Yojana – Gramin (PMAY-G)",
+    "category": ["rural-development", "housing"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["housing-assistance"],
+    "summary": "Rural housing programme for eligible households selected under current programme rules and verified beneficiary processes.",
+    "benefitDetails": {
+      "amount": "Assistance depends on current guidelines, location, and approved beneficiary status",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Households meeting current rural housing eligibility and selection criteria; inclusion must be confirmed against official beneficiary records.",
+    "applicationRoute": "Check with the Gram Panchayat / Block Development Office and official PMAY-G records.",
+    "officialSources": [
+      {
+        "url": "https://pmayg.nic.in/",
+        "sourceType": "official-portal",
+        "supports": ["programme and beneficiary information"]
+      }
+    ],
+    "status": "verify-current-beneficiary-process",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Direct portal access was unavailable during this collection. Confirm current site, eligibility and assistance locally before advising."
+  },
+  {
+    "schemeId": "central-nlm",
+    "name": "National Livestock Mission (NLM)",
+    "category": ["livestock", "animal-husbandry", "rural-enterprise", "feed-fodder"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["enterprise-support", "capital-subsidy", "technical-support"],
+    "summary": "Supports eligible livestock entrepreneurship and related activities, including specified sheep, goat, pig, poultry, and feed/fodder activities under current mission components.",
+    "benefitDetails": {
+      "amount": "Component-specific; verify current eligible project, subsidy ceiling, applicant contribution and application window",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Varies by activity and applicant category; applicants generally need an eligible project and required financing and approvals.",
+    "applicationRoute": "Review current NLM guidelines and apply through the official portal; obtain local Animal Husbandry Department guidance.",
+    "officialSources": [
+      {
+        "url": "https://nlm.udyamimitra.in/",
+        "sourceType": "official-application-portal",
+        "supports": ["mission components", "livestock insurance and innovation sub-mission information"]
+      }
+    ],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal accessible; verify current component guidelines and Tamil Nadu application status before presenting subsidy values."
+  },
+  {
+    "schemeId": "central-ahidf",
+    "name": "Animal Husbandry Infrastructure Development Fund (AHIDF)",
+    "category": ["livestock", "animal-husbandry", "rural-enterprise", "infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["credit-linked-support", "enterprise-finance"],
+    "summary": "Incentivizes eligible investments in dairy and meat processing/value addition, animal feed plants, breed improvement and multiplication, animal-waste management, and veterinary vaccine/drug manufacturing.",
+    "benefitDetails": {
+      "amount": "Project and financing terms depend on current AHIDF guidelines and lender assessment",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "The official scheme description identifies individual entrepreneurs, private companies, MSMEs, FPOs, and Section 8 companies for specified infrastructure projects.",
+    "applicationRoute": "Review scheme guidelines and application information on the AHIDF portal; confirm lender and current application availability.",
+    "officialSources": [
+      {
+        "url": "https://ahidf.udyamimitra.in/",
+        "sourceType": "official-application-portal",
+        "supports": ["AHIDF application"]
+      },
+      {
+        "url": "https://ahidf.udyamimitra.in/scheme-background.html",
+        "sourceType": "official-scheme-description",
+        "supports": ["eligible project categories", "identified applicant types"]
+      }
+    ],
+    "status": "verify-current-financing-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Official scheme background page accessed. Do not describe this as a direct household cash grant."
+  },
+  {
+    "schemeId": "central-livestock-kcc",
+    "name": "Kisan Credit Card (KCC) – Animal Husbandry",
+    "category": ["livestock", "animal-husbandry", "credit", "working-capital"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-credit"],
+    "summary": "Working-capital credit route for eligible animal husbandry activities through participating banks.",
+    "benefitDetails": {
+      "amount": "Credit limit, interest terms, and eligible costs depend on current bank and scheme rules",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Applicants undertaking eligible animal husbandry activities; confirm current criteria and documents with the lending bank.",
+    "applicationRoute": "Contact a participating bank or local Animal Husbandry / Veterinary office for the current application route.",
+    "officialSources": [
+      {
+        "url": "https://www.myscheme.gov.in/",
+        "sourceType": "official-scheme-discovery-portal",
+        "supports": ["scheme discovery"]
+      },
+      {
+        "url": "https://ahd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["animal husbandry services and referral"]
+      }
+    ],
+    "status": "verify-current-bank-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Dedicated current livestock-KCC application guidance was not confirmed in this collection. Treat as a bank referral, not a guaranteed benefit."
+  },
+  {
+    "schemeId": "tn-animal-husbandry-services",
+    "name": "Tamil Nadu Animal Husbandry Department services",
+    "category": ["livestock", "veterinary-services", "animal-health"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["public-service", "technical-support"],
+    "summary": "Department information and referrals for animal husbandry and veterinary services. This is a department service entry, not a single cash-subsidy scheme.",
+    "benefitDetails": {
+      "amount": "Not a single cash benefit",
+      "verificationRequired": false
+    },
+    "eligibilitySummary": "Service availability depends on the relevant department service and local facilities.",
+    "applicationRoute": "Contact the local veterinary dispensary or Animal Husbandry Department office.",
+    "officialSources": [
+      {
+        "url": "https://ahd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["department information"]
+      }
+    ],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Department homepage was reachable. Check local service availability and any current scheme circular."
+  },
+  {
+    "schemeId": "central-pmfme",
+    "name": "Pradhan Mantri Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "category": ["agriculture", "rural-enterprise", "food-processing", "value-addition"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["credit-linked-support", "training", "enterprise-support"],
+    "summary": "Food-processing enterprise programme information relevant to eligible micro food-processing units and producer groups.",
+    "benefitDetails": {
+      "amount": "Support and application availability depend on current programme guidelines and state implementation",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Varies by applicant type, enterprise, product, and current state implementation.",
+    "applicationRoute": "Check the official Ministry of Food Processing Industries PMFME portal and the Tamil Nadu nodal department for current application availability.",
+    "officialSources": [
+      {
+        "url": "https://pmfme.mofpi.gov.in/",
+        "sourceType": "official-ministry-portal",
+        "supports": ["PMFME programme entry"]
+      }
+    ],
+    "status": "verify-current-application-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal reachable but detailed current guidelines and open application status were not confirmed."
+  },
+  {
+    "schemeId": "tn-agriculture-department-portal",
+    "name": "Tamil Nadu Agriculture Department – schemes and services directory",
+    "category": ["agriculture", "state-services", "subsidy-referral"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["scheme-discovery", "public-service"],
+    "summary": "State entry point for discovering current agriculture schemes, seasonal support, and department services. Individual scheme benefits must be recorded as separate entries after checking their current guidelines.",
+    "benefitDetails": {
+      "amount": "Varies by scheme and current Tamil Nadu notification",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Depends on the individual state scheme.",
+    "applicationRoute": "Use the state agriculture portal or contact the local block agriculture office.",
+    "officialSources": [
+      {
+        "url": "https://www.tnagrisnet.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state agriculture portal"]
+      },
+      {
+        "url": "https://agritech.tnau.ac.in/",
+        "sourceType": "Tamil Nadu Agricultural University extension portal",
+        "supports": ["agriculture, horticulture, agricultural engineering, seed, and marketing guidance"]
+      }
+    ],
+    "status": "directory-entry",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "The TN agriculture portal loaded, but scheme listings and current Tamil Nadu subsidy amounts were not extractable in this collection. This record is a referral, not a specific benefit."
+  },
+  {
+    "schemeId": "tn-rural-development-department-portal",
+    "name": "Tamil Nadu Rural Development and Panchayat Raj Department – scheme referral",
+    "category": ["rural-development", "panchayat", "scheme-referral"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["scheme-discovery", "public-service"],
+    "summary": "State referral point for rural development programmes implemented through Panchayats and block-level offices.",
+    "benefitDetails": {
+      "amount": "Varies by programme",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Depends on the individual programme and local implementation.",
+    "applicationRoute": "Contact the Gram Panchayat or Block Development Office and verify the current department circular.",
+    "officialSources": [
+      {
+        "url": "https://www.tnrd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["Rural Development and Panchayat Raj Department"]
+      },
+      {
+        "url": "https://www.tnesevai.tn.gov.in/",
+        "sourceType": "Tamil Nadu e-Sevai portal",
+        "supports": ["government service application and referral"]
+      }
+    ],
+    "status": "directory-entry",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Department homepage was reachable, but current scheme details were not extractable. e-Sevai describes access to government services; it is not a complete scheme catalogue."
+  },
+  {
+    "schemeId": "central-agriculture-infrastructure-fund",
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "category": ["agriculture", "rural-enterprise", "infrastructure", "post-harvest"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["credit-linked-support", "interest-support"],
+    "summary": "Financing facility for eligible agriculture infrastructure projects, including post-harvest management and community farming assets.",
+    "benefitDetails": {
+      "amount": "Project eligibility, loan terms, and any interest support depend on current AIF guidelines and lender approval",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Eligible applicants and project categories are defined by current AIF guidelines; lending is subject to bank appraisal.",
+    "applicationRoute": "Review current AIF guidelines and application route on the official portal, then apply through a participating lender.",
+    "officialSources": [
+      {
+        "url": "https://agriinfra.dac.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["Agriculture Infrastructure Fund"]
+      }
+    ],
+    "status": "verify-current-guidelines",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal was reachable. Do not present a credit-linked facility as a guaranteed grant."
+  },
+  {
+    "schemeId": "central-enam",
+    "name": "National Agriculture Market (e-NAM)",
+    "category": ["agriculture", "market-access", "price-discovery"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["market-service", "digital-platform"],
+    "summary": "Electronic agricultural market platform intended to connect participating mandis and support transparent trading and price discovery.",
+    "benefitDetails": {
+      "amount": "Not a direct cash subsidy",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Participation depends on the state mandi, commodity, trader/farmer registration, and applicable market rules.",
+    "applicationRoute": "Check participating markets and registration instructions on the e-NAM portal or with the local regulated market.",
+    "officialSources": [
+      {
+        "url": "https://enam.gov.in/web/",
+        "sourceType": "official-portal",
+        "supports": ["e-NAM platform"]
+      }
+    ],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal accessible. Confirm local market participation and registration requirements."
+  },
+  {
+    "schemeId": "central-formation-promotion-fpos",
+    "name": "Formation and Promotion of 10,000 Farmer Producer Organisations (FPOs)",
+    "category": ["agriculture", "farmer-producer-organisation", "collective-enterprise"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["institutional-support", "capacity-building", "credit-facilitation"],
+    "summary": "Programme supporting the formation and development of Farmer Producer Organisations through designated implementing agencies and cluster-based business support.",
+    "benefitDetails": {
+      "amount": "Support depends on FPO stage, implementing agency, and current scheme guidelines",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Farmer groups and FPOs meeting current programme and implementing-agency requirements.",
+    "applicationRoute": "Contact an SFAC or other designated implementing agency, or the local agriculture department, to identify the FPO cluster and support route.",
+    "officialSources": [
+      {
+        "url": "https://sfacindia.com/",
+        "sourceType": "official-implementing-agency",
+        "supports": ["FPO programme information"]
+      },
+      {
+        "url": "https://www.myscheme.gov.in/",
+        "sourceType": "official-scheme-discovery-portal",
+        "supports": ["scheme discovery"]
+      }
+    ],
+    "status": "verify-local-implementing-agency",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "SFAC portal reachable; specific Tamil Nadu cluster and current assistance terms were not confirmed."
+  },
+  {
+    "schemeId": "central-pm-kisan-maandhan",
+    "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+    "category": ["agriculture", "farmer-pension", "social-security"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["contributory-pension"],
+    "summary": "Contributory pension programme for eligible small and marginal farmers, subject to age, landholding, and exclusion rules.",
+    "benefitDetails": {
+      "amount": "Pension benefit and contribution depend on age and current scheme rules",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Eligibility is subject to age, landholding, and exclusions in current guidelines; verify before enrolment.",
+    "applicationRoute": "Check the official Maandhan portal or ask a Common Service Centre about current farmer enrolment.",
+    "officialSources": [
+      {
+        "url": "https://maandhan.in/",
+        "sourceType": "official-portal",
+        "supports": ["Maandhan pension schemes"]
+      },
+      {
+        "url": "https://pmkisan.gov.in/",
+        "sourceType": "official-related-portal",
+        "supports": ["farmer scheme status and related information"]
+      }
+    ],
+    "status": "verify-current-enrolment",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm current enrolment availability and applicant-specific exclusions on the official portal."
+  },
+  {
+    "schemeId": "central-rashtriya-krishi-vikas-yojana",
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "category": ["agriculture", "state-planning", "farm-development"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["state-implemented-project-support"],
+    "summary": "Centrally sponsored agriculture development programme implemented through state-approved plans and projects.",
+    "benefitDetails": {
+      "amount": "No single farmer-level amount; support depends on approved Tamil Nadu components and project guidelines",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Farmer-facing benefits depend on the specific state project or component announced for the district and season.",
+    "applicationRoute": "Ask the local agriculture or horticulture office which RKVY components are currently operating in the district.",
+    "officialSources": [
+      {
+        "url": "https://rkvy.nic.in/",
+        "sourceType": "official-programme-portal",
+        "supports": ["RKVY programme"]
+      },
+      {
+        "url": "https://www.tnagrisnet.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state agriculture information"]
+      }
+    ],
+    "status": "verify-current-state-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "This is a programme umbrella, not a single uniform subsidy. Record Tamil Nadu components separately once verified."
+  },
+  {
+    "schemeId": "central-national-food-security-mission",
+    "name": "National Food Security Mission (NFSM)",
+    "category": ["agriculture", "crop-productivity", "seeds", "extension"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["input-support", "demonstration", "technical-support"],
+    "summary": "Crop productivity programme implemented through notified crops and state activities, including demonstrations and eligible input or technology support.",
+    "benefitDetails": {
+      "amount": "Varies by crop, activity, district, and current state guidelines",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Depends on the crop and activity notified for the area and season.",
+    "applicationRoute": "Contact the block agriculture office to check current Tamil Nadu crop and district activities.",
+    "officialSources": [
+      {
+        "url": "https://www.nfsm.gov.in/",
+        "sourceType": "official-programme-portal",
+        "supports": ["NFSM programme"]
+      },
+      {
+        "url": "https://www.tnagrisnet.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state agriculture information"]
+      }
+    ],
+    "status": "verify-current-crop-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Check the currently supported crop, activity, and district before describing a benefit as available."
+  },
+  {
+    "schemeId": "central-pm-matsya-sampada",
+    "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+    "category": ["fisheries", "aquaculture", "rural-livelihood", "value-addition"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-assistance", "technical-support", "infrastructure"],
+    "summary": "Fisheries-sector programme covering eligible fisheries and aquaculture activities, infrastructure, productivity, and value-chain development.",
+    "benefitDetails": {
+      "amount": "Component-specific; verify current Tamil Nadu annual plan, subsidy rate, ceiling, and application window",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Varies by activity and applicant type, including fishers, fish farmers, groups, and eligible enterprises under current guidelines.",
+    "applicationRoute": "Check current Tamil Nadu fisheries notifications and apply through the Department of Fisheries or designated district office.",
+    "officialSources": [
+      {
+        "url": "https://pmmsy.dof.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["PMMSY programme"]
+      },
+      {
+        "url": "https://dof.gov.in/",
+        "sourceType": "official-ministry",
+        "supports": ["Department of Fisheries"]
+      }
+    ],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Official programme portal accessible. Current Tamil Nadu activity list and subsidy terms need district-level verification."
+  },
+  {
+    "schemeId": "central-livestock-health-disease-control",
+    "name": "Livestock Health and Disease Control Programme (LHDCP)",
+    "category": ["livestock", "animal-health", "vaccination", "veterinary-services"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-veterinary-service", "disease-prevention"],
+    "summary": "Programme umbrella for animal-health and disease-control activities implemented through government veterinary systems.",
+    "benefitDetails": {
+      "amount": "Not a single cash payment; service and vaccination availability depend on current programme implementation",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Livestock owners can ask local veterinary authorities about species, disease, vaccination schedules, and currently covered services.",
+    "applicationRoute": "Contact the nearest Tamil Nadu veterinary dispensary or Animal Husbandry Department office.",
+    "officialSources": [
+      {
+        "url": "https://dahd.gov.in/",
+        "sourceType": "official-ministry",
+        "supports": ["Department of Animal Husbandry and Dairying programme information"]
+      },
+      {
+        "url": "https://ahd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state animal husbandry services"]
+      }
+    ],
+    "status": "verify-local-service",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Central department site blocked automated retrieval; confirm current Tamil Nadu activity and free/paid service terms locally."
+  },
+  {
+    "schemeId": "central-national-animal-disease-control",
+    "name": "National Animal Disease Control Programme (NADCP)",
+    "category": ["livestock", "animal-health", "vaccination", "disease-control"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-veterinary-service", "vaccination"],
+    "summary": "National programme for control of specified animal diseases through vaccination and related disease-control measures.",
+    "benefitDetails": {
+      "amount": "Not a direct cash subsidy",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Livestock and areas covered by the current vaccination campaign; species, schedule, and availability must be confirmed locally.",
+    "applicationRoute": "Contact the local veterinary dispensary or Animal Husbandry Department for campaign schedules.",
+    "officialSources": [
+      {
+        "url": "https://dahd.gov.in/",
+        "sourceType": "official-ministry",
+        "supports": ["animal disease control programme information"]
+      },
+      {
+        "url": "https://ahd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["local veterinary service referral"]
+      }
+    ],
+    "status": "verify-local-campaign",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Verify current disease, species, location, and vaccination dates with the local veterinary office."
+  },
+  {
+    "schemeId": "central-rashtriya-gokul-mission",
+    "name": "Rashtriya Gokul Mission",
+    "category": ["livestock", "dairy", "indigenous-cattle", "breed-improvement"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["breeding-service", "technical-support"],
+    "summary": "Programme focused on development and conservation of indigenous bovine breeds and improvement of bovine productivity through designated activities.",
+    "benefitDetails": {
+      "amount": "No single farmer-level cash benefit; service and activity support depend on current state implementation",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Access to services depends on the local breeding programme, livestock, and implementing veterinary or breeding centre.",
+    "applicationRoute": "Ask the local veterinary or livestock breeding centre which breed-improvement services are available.",
+    "officialSources": [
+      {
+        "url": "https://dahd.gov.in/",
+        "sourceType": "official-ministry",
+        "supports": ["Rashtriya Gokul Mission information"]
+      },
+      {
+        "url": "https://ahd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state animal husbandry referral"]
+      }
+    ],
+    "status": "verify-local-service",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Department central pages were not retrievable by automated fetch. Confirm currently available Tamil Nadu services locally."
+  },
+  {
+    "schemeId": "central-national-programme-dairy-development",
+    "name": "National Programme for Dairy Development (NPDD)",
+    "category": ["livestock", "dairy", "milk-collection", "rural-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["institutional-infrastructure", "technical-support"],
+    "summary": "Dairy development programme supporting eligible dairy-sector infrastructure and institutional capacity through approved projects.",
+    "benefitDetails": {
+      "amount": "Project-based assistance; not a uniform household cash payment",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Support is generally routed through approved project and institutional arrangements; individual farmers should check with the local dairy cooperative or implementing agency.",
+    "applicationRoute": "Contact the local milk cooperative, Tamil Nadu dairy federation, or Animal Husbandry/Dairy Development office.",
+    "officialSources": [
+      {
+        "url": "https://dahd.gov.in/",
+        "sourceType": "official-ministry",
+        "supports": ["dairy development programme information"]
+      },
+      {
+        "url": "https://ahd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["state dairy and animal husbandry referral"]
+      }
+    ],
+    "status": "verify-current-project",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm active Tamil Nadu project, implementing institution, and any farmer-facing service before treating this as an individual benefit."
+  },
+  {
+    "schemeId": "central-jal-jeevan-mission",
+    "name": "Jal Jeevan Mission (JJM)",
+    "category": ["rural-development", "drinking-water", "village-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-infrastructure", "household-service"],
+    "summary": "Rural drinking-water mission focused on household tap connections and sustainable village water systems.",
+    "benefitDetails": {
+      "amount": "Not a direct household cash subsidy",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Village and household service status depends on approved local water-supply schemes and implementation.",
+    "applicationRoute": "Check with the Village Panchayat or local water-supply authority about connection status, service issues, and village works.",
+    "officialSources": [
+      {
+        "url": "https://jaljeevanmission.gov.in/",
+        "sourceType": "official-portal",
+        "supports": ["Jal Jeevan Mission objectives and information"]
+      }
+    ],
+    "status": "active-programme",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal accessible. Check Tamil Nadu village-level implementation and current service status locally."
+  },
+  {
+    "schemeId": "central-swachh-bharat-mission-gramin",
+    "name": "Swachh Bharat Mission (Grameen)",
+    "category": ["rural-development", "sanitation", "village-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-infrastructure", "sanitation-support"],
+    "summary": "Rural sanitation and village cleanliness programme. Household and community support depends on current state guidelines and local implementation.",
+    "benefitDetails": {
+      "amount": "Verify current Tamil Nadu component and eligibility; not a universal cash entitlement",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Depends on the specific household or community sanitation component and current local implementation.",
+    "applicationRoute": "Contact the Village Panchayat or Block Development Office for current support and service route.",
+    "officialSources": [
+      {
+        "url": "https://sbm.gov.in/sbmphase2/",
+        "sourceType": "official-portal",
+        "supports": ["rural sanitation programme portal"]
+      },
+      {
+        "url": "https://www.tnrd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["rural development referral"]
+      }
+    ],
+    "status": "verify-current-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal was reachable but did not expose details in this collection. Verify the current Tamil Nadu component locally."
+  },
+  {
+    "schemeId": "central-pradhan-mantri-gram-sadak-yojana",
+    "name": "Pradhan Mantri Gram Sadak Yojana (PMGSY)",
+    "category": ["rural-development", "rural-roads", "village-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-infrastructure"],
+    "summary": "Rural roads programme implemented through approved projects; it is not an individual cash subsidy.",
+    "benefitDetails": {
+      "amount": "Not a direct household payment",
+      "verificationRequired": true
+    },
+    "eligibilitySummary": "Road coverage depends on approved habitation and road projects under current programme guidelines.",
+    "applicationRoute": "Contact the Panchayat or district rural development office for project and road-status enquiries.",
+    "officialSources": [
+      {
+        "url": "https://pmgsy.nic.in/",
+        "sourceType": "official-portal",
+        "supports": ["PMGSY programme"]
+      },
+      {
+        "url": "https://www.tnrd.tn.gov.in/",
+        "sourceType": "Tamil Nadu department portal",
+        "supports": ["rural development referral"]
+      }
+    ],
+    "status": "verify-local-project",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Central portal could not be retrieved during collection. Confirm active project details with the district office."
+  },
+  {
+    "schemeId": "central-rainfed-area-development",
+    "name": "Rainfed Area Development (RAD)",
+    "category": ["agriculture", "rainfed-farming", "integrated-farming"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["state-implemented-project-support", "technical-support"],
+    "summary": "NMSA component promoting integrated farming systems and livelihood diversification in eligible rainfed areas.",
+    "benefitDetails": {"amount": "Activity- and state-plan-specific; verify local guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Depends on current state plans, notified locations, and approved activities.",
+    "applicationRoute": "Ask the block agriculture office whether RAD activities are operating in the applicant's area.",
+    "officialSources": [{"url": "https://nmsa.dac.gov.in/", "sourceType": "official-portal", "supports": ["NMSA and sustainable agriculture"]}],
+    "status": "verify-current-state-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "NMSA portal confirms sustainable/rainfed agriculture focus; current Tamil Nadu RAD implementation and benefits need confirmation."
+  },
+  {
+    "schemeId": "central-soil-health-management-nmsa",
+    "name": "Soil Health Management (NMSA component)",
+    "category": ["agriculture", "soil-health", "nutrient-management"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["technical-support", "soil-management"],
+    "summary": "NMSA component supporting soil-health management and resource-conserving farming practices.",
+    "benefitDetails": {"amount": "No uniform household payment; verify current state activities", "verificationRequired": true},
+    "eligibilitySummary": "Service or activity access depends on current state implementation.",
+    "applicationRoute": "Contact the local agriculture extension office for soil testing and active soil-management activities.",
+    "officialSources": [{"url": "https://nmsa.dac.gov.in/", "sourceType": "official-portal", "supports": ["soil-health management focus"]}, {"url": "https://soilhealth.dac.gov.in/", "sourceType": "official-portal", "supports": ["soil testing and Soil Health Card"]}],
+    "status": "verify-current-state-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Related to, but distinct from, the Soil Health Card service record; check active NMSA component before advising."
+  },
+  {
+    "schemeId": "central-sub-mission-agroforestry",
+    "name": "Sub-Mission on Agroforestry (SMAF)",
+    "category": ["agriculture", "agroforestry", "tree-crops"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["planting-material-support", "technical-support"],
+    "summary": "Agroforestry programme supporting tree planting on farms under notified state plans and guidelines.",
+    "benefitDetails": {"amount": "Species, area, assistance, and active state coverage require verification", "verificationRequired": true},
+    "eligibilitySummary": "Farmers and land parcels meeting current state and component guidelines.",
+    "applicationRoute": "Confirm current coverage and application details with the Tamil Nadu agriculture or forest department.",
+    "officialSources": [{"url": "https://nmsa.dac.gov.in/", "sourceType": "official-portal", "supports": ["sustainable agriculture and agroforestry"]}, {"url": "https://agritech.tnau.ac.in/", "sourceType": "state agricultural university extension", "supports": ["agroforestry information"]}],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Current Tamil Nadu implementation and subsidy rates were not established in this collection."
+  },
+  {
+    "schemeId": "central-per-drop-more-crop",
+    "name": "Per Drop More Crop (PDMC)",
+    "category": ["agriculture", "micro-irrigation", "water-efficiency"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-subsidy", "irrigation-equipment"],
+    "summary": "Micro-irrigation component supporting improved water-use efficiency through drip and sprinkler systems.",
+    "benefitDetails": {"amount": "Current subsidy rates and ceilings depend on state guidelines and applicant category", "verificationRequired": true},
+    "eligibilitySummary": "Eligible farmers, land, crops, and equipment under current Tamil Nadu implementation rules.",
+    "applicationRoute": "Apply or enquire through the Tamil Nadu agriculture/horticulture department before purchasing equipment.",
+    "officialSources": [{"url": "https://pmksy.gov.in/", "sourceType": "official-portal", "supports": ["PDMC micro-irrigation purpose"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["state agriculture services"]}],
+    "status": "verify-current-subsidy",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "This is separately catalogued as a component of PMKSY; existing umbrella record retained for discovery."
+  },
+  {
+    "schemeId": "central-har-khet-ko-pani",
+    "name": "Har Khet Ko Pani (PMKSY component)",
+    "category": ["agriculture", "irrigation", "water-access"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-infrastructure", "irrigation-service"],
+    "summary": "PMKSY component focused on expanding irrigation coverage and water access.",
+    "benefitDetails": {"amount": "Not a uniform individual cash subsidy; projects and support are location-specific", "verificationRequired": true},
+    "eligibilitySummary": "Depends on approved irrigation projects and local implementation.",
+    "applicationRoute": "Ask the district agriculture or water-resources office about approved works and farmer access.",
+    "officialSources": [{"url": "https://pmksy.gov.in/", "sourceType": "official-portal", "supports": ["Har Khet Ko Pani objective"]}],
+    "status": "verify-local-project",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "The portal describes this as a PMKSY vision/component; do not show it as an individual grant without a specific state activity."
+  },
+  {
+    "schemeId": "central-watershed-development-pmksy",
+    "name": "Watershed Development Component of PMKSY (WDC-PMKSY)",
+    "category": ["agriculture", "rural-development", "watershed", "water-conservation"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["community-infrastructure", "natural-resource-management"],
+    "summary": "Watershed programme supporting soil and water conservation and livelihood activities in selected project areas.",
+    "benefitDetails": {"amount": "Project-based; not a uniform household cash grant", "verificationRequired": true},
+    "eligibilitySummary": "Villages and activities covered by an approved watershed project.",
+    "applicationRoute": "Check with the Panchayat, block office, and watershed project team for the village plan.",
+    "officialSources": [{"url": "https://pmksy.gov.in/", "sourceType": "official-portal", "supports": ["PMKSY"]}, {"url": "https://www.tnrd.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["rural development referral"]}],
+    "status": "verify-local-project",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm the active WDC phase and Tamil Nadu project/village coverage."
+  },
+  {
+    "schemeId": "central-mission-integrated-development-horticulture",
+    "name": "Mission for Integrated Development of Horticulture (MIDH)",
+    "category": ["agriculture", "horticulture", "orchards", "post-harvest"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-assistance", "planting-material-support", "technical-support"],
+    "summary": "Umbrella horticulture programme supporting eligible production, planting material, protected cultivation, and post-harvest activities through state plans.",
+    "benefitDetails": {"amount": "Component-specific rates and ceilings require current Tamil Nadu guideline verification", "verificationRequired": true},
+    "eligibilitySummary": "Depends on horticulture activity, district plan, applicant, and available allocation.",
+    "applicationRoute": "Contact the district horticulture office before investment or planting.",
+    "officialSources": [{"url": "https://midh.gov.in/", "sourceType": "official-portal", "supports": ["MIDH programme information"]}, {"url": "https://agritech.tnau.ac.in/horticulture/horti_index.html", "sourceType": "TNAU extension portal", "supports": ["horticulture guidance"]}],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal accessible; active Tamil Nadu components and subsidy rates not confirmed."
+  },
+  {
+    "schemeId": "central-national-bamboo-mission",
+    "name": "National Bamboo Mission",
+    "category": ["agriculture", "horticulture", "bamboo", "rural-enterprise"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["planting-support", "value-chain-support"],
+    "summary": "Bamboo-sector programme covering cultivation, planting material, post-harvest management, and value-chain development through state plans.",
+    "benefitDetails": {"amount": "Assistance varies by activity and current state plan", "verificationRequired": true},
+    "eligibilitySummary": "Farmers, producer groups, and eligible value-chain actors under current guidelines.",
+    "applicationRoute": "Check with the Tamil Nadu horticulture/agriculture department whether the relevant activity is open.",
+    "officialSources": [{"url": "https://midh.gov.in/", "sourceType": "official-horticulture-portal", "supports": ["horticulture mission information"]}, {"url": "https://agritech.tnau.ac.in/", "sourceType": "TNAU extension portal", "supports": ["crop guidance"]}],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm the current mission guidelines and Tamil Nadu allocation; no subsidy amount asserted."
+  },
+  {
+    "schemeId": "central-national-beekeeping-honey-mission",
+    "name": "National Beekeeping and Honey Mission (NBHM)",
+    "category": ["agriculture", "beekeeping", "pollination", "rural-enterprise"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["training", "equipment-support", "value-chain-support"],
+    "summary": "Programme supporting scientific beekeeping, pollination, production, processing, and marketing through approved activities.",
+    "benefitDetails": {"amount": "Activity- and implementing-agency-specific; verify current guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Beekeepers, groups, and eligible institutions depending on the activity and current programme call.",
+    "applicationRoute": "Contact the state agriculture/horticulture department or an approved beekeeping training institution.",
+    "officialSources": [{"url": "https://nbb.gov.in/", "sourceType": "official-board-portal", "supports": ["beekeeping and honey mission information"]}, {"url": "https://agritech.tnau.ac.in/", "sourceType": "TNAU extension portal", "supports": ["agriculture and horticulture extension"]}],
+    "status": "verify-current-call",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Check current mission phase, Tamil Nadu implementing agency, and open assistance before presenting as available."
+  },
+  {
+    "schemeId": "central-national-mission-edible-oils-oil-palm",
+    "name": "National Mission on Edible Oils – Oil Palm (NMEO-OP)",
+    "category": ["agriculture", "oil-palm", "edible-oils", "horticulture"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["planting-material-support", "input-support", "price-support"],
+    "summary": "Oil-palm development mission with support components defined by current central and state guidelines.",
+    "benefitDetails": {"amount": "Component-specific assistance and price mechanisms require verification", "verificationRequired": true},
+    "eligibilitySummary": "Farmers in identified suitable areas and eligible project locations under current Tamil Nadu implementation.",
+    "applicationRoute": "Check district horticulture/agriculture office for approved area, water suitability, and current assistance.",
+    "officialSources": [{"url": "https://nmeo.dac.gov.in/", "sourceType": "official-programme-portal", "supports": ["oil palm mission"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture services"]}],
+    "status": "verify-location-and-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm Tamil Nadu district suitability and current scheme details; no benefit rate assumed."
+  },
+  {
+    "schemeId": "central-national-mission-edible-oils-oilseeds",
+    "name": "National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds)",
+    "category": ["agriculture", "oilseeds", "crop-productivity"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["seed-support", "demonstration", "technical-support"],
+    "summary": "Mission to expand oilseed production and productivity through notified interventions and state implementation.",
+    "benefitDetails": {"amount": "Varies by crop, district, activity, and current state guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Farmers in participating areas growing notified oilseed crops, subject to current activity rules.",
+    "applicationRoute": "Ask the block agriculture office about notified crops, seed distribution, and current demonstrations.",
+    "officialSources": [{"url": "https://www.nfsm.gov.in/", "sourceType": "official-agriculture-portal", "supports": ["food-security and crop mission information"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture services"]}],
+    "status": "verify-current-state-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Verify current dedicated mission portal, Tamil Nadu annual plan, and farmer-facing intervention."
+  },
+  {
+    "schemeId": "central-mission-aatmanirbharta-pulses",
+    "name": "Mission for Aatmanirbharta in Pulses",
+    "category": ["agriculture", "pulses", "seed", "procurement"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["seed-support", "extension", "procurement-support"],
+    "summary": "Dedicated national mission for pulse self-reliance, including production and procurement-related interventions under current rules.",
+    "benefitDetails": {"amount": "Varies by intervention and procurement eligibility; verify official current terms", "verificationRequired": true},
+    "eligibilitySummary": "Pulse growers and participating agencies in notified locations and seasons.",
+    "applicationRoute": "Check with the agriculture department and notified procurement agency for current crop/season arrangements.",
+    "officialSources": [{"url": "https://www.nfsm.gov.in/", "sourceType": "official-agriculture-portal", "supports": ["current mission transition notice"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state scheme referral"]}],
+    "status": "verify-current-guidelines",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "NFSM portal states the pulses component moved to this dedicated mission; verify detailed current rules and Tamil Nadu rollout."
+  },
+  {
+    "schemeId": "central-mission-cotton-productivity",
+    "name": "Mission on Cotton Productivity",
+    "category": ["agriculture", "cotton", "crop-productivity"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["seed-support", "demonstration", "technical-support"],
+    "summary": "Dedicated mission for cotton productivity, succeeding the cotton component of the earlier NFSM framework.",
+    "benefitDetails": {"amount": "Activity- and district-specific; verify current programme rules", "verificationRequired": true},
+    "eligibilitySummary": "Cotton growers in notified districts and activities, subject to current state plan.",
+    "applicationRoute": "Check the district agriculture office for participating areas, seed, demonstrations, and application procedures.",
+    "officialSources": [{"url": "https://www.nfsm.gov.in/", "sourceType": "official-agriculture-portal", "supports": ["mission transition notice"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture information"]}],
+    "status": "verify-current-state-rollout",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "NFSM portal identifies a separate cotton mission; detailed Tamil Nadu rollout must be confirmed."
+  },
+  {
+    "schemeId": "central-national-natural-farming-mission",
+    "name": "National Mission on Natural Farming (NMNF)",
+    "category": ["agriculture", "natural-farming", "soil-health", "extension"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["training", "demonstration", "technical-support"],
+    "summary": "National programme promoting natural-farming practices through clusters, training, and extension activities.",
+    "benefitDetails": {"amount": "Support varies by approved activity and state implementation", "verificationRequired": true},
+    "eligibilitySummary": "Farmers and clusters selected under state implementation and current programme guidelines.",
+    "applicationRoute": "Ask the local agriculture office about active natural-farming clusters and training.",
+    "officialSources": [{"url": "https://www.myscheme.gov.in/", "sourceType": "official-scheme-discovery-portal", "supports": ["scheme discovery"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture referral"]}],
+    "status": "verify-current-state-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Current Tamil Nadu mission orders and activity-specific assistance were not retrieved."
+  },
+  {
+    "schemeId": "central-paramparagat-krishi-vikas-yojana",
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "category": ["agriculture", "organic-farming", "farmer-clusters"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["cluster-support", "certification-support", "training"],
+    "summary": "Organic-farming programme delivered through clusters and state implementation.",
+    "benefitDetails": {"amount": "Assistance, eligible components, and current continuation require verification", "verificationRequired": true},
+    "eligibilitySummary": "Farmers participating in eligible clusters or groups under current state rules.",
+    "applicationRoute": "Contact the state agriculture department or local extension officer for current cluster enrollment.",
+    "officialSources": [{"url": "https://pgsindia-ncof.gov.in/", "sourceType": "official-organic-farming-portal", "supports": ["organic certification and programme information"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture referral"]}],
+    "status": "verify-current-scheme-status",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Verify whether this programme remains separately open or has been converged into newer natural-farming activity."
+  },
+  {
+    "schemeId": "central-sub-mission-agriculture-mechanization",
+    "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "category": ["agriculture", "farm-machinery", "mechanization"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-subsidy", "custom-hiring-centre-support"],
+    "summary": "Agricultural mechanization support for eligible machinery, custom hiring centres, and farm equipment through state implementation.",
+    "benefitDetails": {"amount": "Rates and ceilings depend on machine, applicant group, and current Tamil Nadu guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Farmers, groups, cooperatives, FPOs, or service providers meeting current component rules.",
+    "applicationRoute": "Apply only through the current Tamil Nadu agriculture department process and confirm availability before purchase.",
+    "officialSources": [{"url": "https://agrimachinery.nic.in/", "sourceType": "official-portal", "supports": ["farm mechanization scheme information"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state application referral"]}],
+    "status": "verify-current-subsidy",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm current Tamil Nadu allocation, equipment list, and application window."
+  },
+  {
+    "schemeId": "central-agriculture-marketing-infrastructure",
+    "name": "Agriculture Marketing Infrastructure (AMI)",
+    "category": ["agriculture", "marketing", "storage", "rural-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["capital-assistance", "credit-linked-support"],
+    "summary": "Agriculture marketing infrastructure support associated with storage and post-harvest facilities under applicable current guidelines.",
+    "benefitDetails": {"amount": "Project-specific; confirm whether the component is currently open and its applicable subsidy", "verificationRequired": true},
+    "eligibilitySummary": "Eligible projects and applicants as defined by current scheme guidelines.",
+    "applicationRoute": "Check with the state agriculture marketing department and participating lender before preparing a project.",
+    "officialSources": [{"url": "https://enam.gov.in/web/", "sourceType": "official-market-portal", "supports": ["agriculture market access context"]}, {"url": "https://www.myscheme.gov.in/", "sourceType": "official-scheme-discovery-portal", "supports": ["current scheme lookup"]}],
+    "status": "verify-current-scheme-status",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Legacy/subcomponent status and current Tamil Nadu application availability need confirmation; not represented as open."
+  },
+  {
+    "schemeId": "central-pm-aasha-price-support",
+    "name": "Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA)",
+    "category": ["agriculture", "price-assurance", "procurement"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["price-support", "procurement"],
+    "summary": "Umbrella framework for price support and procurement interventions for notified agricultural produce.",
+    "benefitDetails": {"amount": "Depends on notified crop, procurement period, and operational component", "verificationRequired": true},
+    "eligibilitySummary": "Farmers growing notified crops who meet procurement registration and quality requirements.",
+    "applicationRoute": "Check current crop/season procurement notifications with the Tamil Nadu marketing or procurement agency.",
+    "officialSources": [{"url": "https://www.myscheme.gov.in/", "sourceType": "official-scheme-discovery-portal", "supports": ["scheme discovery"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture referral"]}],
+    "status": "verify-current-procurement",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Do not assume every crop or district is covered; confirm active procurement notification."
+  },
+  {
+    "schemeId": "central-pm-aasha-price-support-scheme",
+    "name": "Price Support Scheme (PSS) – PM-AASHA component",
+    "category": ["agriculture", "price-assurance", "pulse-oilseed-procurement"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["minimum-support-price-procurement"],
+    "summary": "Procurement component under PM-AASHA for notified crops when activated by government.",
+    "benefitDetails": {"amount": "Notified MSP and procurement conditions apply only when the component is operational for the crop and season", "verificationRequired": true},
+    "eligibilitySummary": "Registered growers of notified crops meeting procurement quality and quantity rules.",
+    "applicationRoute": "Check the current Tamil Nadu procurement notification and designated procurement centre.",
+    "officialSources": [{"url": "https://www.myscheme.gov.in/", "sourceType": "official-scheme-discovery-portal", "supports": ["scheme discovery"]}],
+    "status": "verify-notification-before-use",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "A PM-AASHA subcomponent; do not count as assured farmer payment without an active procurement order."
+  },
+  {
+    "schemeId": "central-pm-aasha-price-deficiency",
+    "name": "Price Deficiency Payment Scheme (PDPS) – PM-AASHA component",
+    "category": ["agriculture", "price-assurance", "oilseed-producers"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["price-deficiency-payment"],
+    "summary": "PM-AASHA component designed to address price deficiency for notified produce under applicable operational rules.",
+    "benefitDetails": {"amount": "Only as specified in a current crop/season notification", "verificationRequired": true},
+    "eligibilitySummary": "Registered eligible producers for crops and locations covered by a current notification.",
+    "applicationRoute": "Verify with the Tamil Nadu agriculture/marketing department whether PDPS is active for the crop and season.",
+    "officialSources": [{"url": "https://www.myscheme.gov.in/", "sourceType": "official-scheme-discovery-portal", "supports": ["scheme discovery"]}],
+    "status": "verify-notification-before-use",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Subcomponent record; current Tamil Nadu activation was not confirmed."
+  },
+  {
+    "schemeId": "central-pm-kusum-component-a",
+    "name": "PM-KUSUM Component A",
+    "category": ["agriculture", "solar-energy", "distributed-power"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["renewable-energy-project", "power-sale"],
+    "summary": "PM-KUSUM component for decentralized renewable power plants on eligible land, subject to state implementation.",
+    "benefitDetails": {"amount": "Tariff, project size, eligibility, and incentives depend on current state tender", "verificationRequired": true},
+    "eligibilitySummary": "Eligible farmers, groups, cooperatives, panchayats, FPOs, or other entities under state tender rules.",
+    "applicationRoute": "Check current Tamil Nadu renewable-energy nodal agency tenders and eligibility.",
+    "officialSources": [{"url": "https://pmkusum.mnre.gov.in/", "sourceType": "official-portal", "supports": ["PM-KUSUM components"]}],
+    "status": "verify-current-state-tender",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "State tender-based availability; do not imply applications are continuously open."
+  },
+  {
+    "schemeId": "central-pm-kusum-component-b",
+    "name": "PM-KUSUM Component B",
+    "category": ["agriculture", "solar-energy", "irrigation"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["solar-pump-support"],
+    "summary": "PM-KUSUM component supporting standalone solar agriculture pumps under state allocations and current guidelines.",
+    "benefitDetails": {"amount": "Beneficiary share and support rates depend on current state guidelines and tender", "verificationRequired": true},
+    "eligibilitySummary": "Farmers meeting land, water, pump, and state allocation conditions.",
+    "applicationRoute": "Check the state nodal agency and Tamil Nadu agriculture portal before purchasing or installing equipment.",
+    "officialSources": [{"url": "https://pmkusum.mnre.gov.in/", "sourceType": "official-portal", "supports": ["solar pump programme"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state referral"]}],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Verify component B allocation and application opening for Tamil Nadu."
+  },
+  {
+    "schemeId": "central-pm-kusum-component-c",
+    "name": "PM-KUSUM Component C",
+    "category": ["agriculture", "solar-energy", "irrigation", "grid-connected-pumps"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["solarization-support", "power-sale"],
+    "summary": "PM-KUSUM component for solarization of grid-connected agricultural pumps or feeder-level solarization, as implemented by the state.",
+    "benefitDetails": {"amount": "Support and power-purchase terms depend on current state implementation", "verificationRequired": true},
+    "eligibilitySummary": "Farmers or feeder groups included in a state-approved component.",
+    "applicationRoute": "Check current Tamil Nadu energy and agriculture department notifications.",
+    "officialSources": [{"url": "https://pmkusum.mnre.gov.in/", "sourceType": "official-portal", "supports": ["PM-KUSUM component information"]}],
+    "status": "verify-current-state-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "State rollout is allocation-dependent; verify before listing as open."
+  },
+  {
+    "schemeId": "central-agri-clinics-agri-business-centres",
+    "name": "Agri-Clinics and Agri-Business Centres (ACABC)",
+    "category": ["agriculture", "entrepreneurship", "extension-services"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["training", "credit-linked-enterprise-support"],
+    "summary": "Training and enterprise-support programme enabling eligible agriculture graduates to establish agri-clinics and agri-business centres.",
+    "benefitDetails": {"amount": "Training and credit-linked support depend on current guidelines and lender approval", "verificationRequired": true},
+    "eligibilitySummary": "Eligible agriculture/allied graduates and other categories defined by the current programme.",
+    "applicationRoute": "Check the official ACABC portal and approved training institutions for current batches.",
+    "officialSources": [{"url": "https://acabcmis.gov.in/", "sourceType": "official-programme-portal", "supports": ["ACABC training and programme information"]}],
+    "status": "verify-current-batch",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm current training schedule, eligibility, and financing conditions."
+  },
+  {
+    "schemeId": "central-national-mission-agricultural-extension-technology",
+    "name": "National Mission on Agricultural Extension and Technology (NMAET) – extension referral",
+    "category": ["agriculture", "extension", "farm-advisory"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["extension-service", "training"],
+    "summary": "Agriculture extension and technology mission framework; farmer-facing services are delivered through specific current programmes and state channels.",
+    "benefitDetails": {"amount": "Not a single direct cash benefit", "verificationRequired": true},
+    "eligibilitySummary": "Farmers can access services according to the active extension programme and local availability.",
+    "applicationRoute": "Contact the block agriculture office or KVK for current training and extension services.",
+    "officialSources": [{"url": "https://agritech.tnau.ac.in/", "sourceType": "TNAU extension portal", "supports": ["farmer extension information"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["department services"]}],
+    "status": "directory-entry",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Mission architecture and subsumed components evolve; this is a referral record, not an independently confirmed open subsidy."
+  },
+  {
+    "schemeId": "central-crop-insurance-rwbcis",
+    "name": "Restructured Weather Based Crop Insurance Scheme (RWBCIS)",
+    "category": ["agriculture", "crop-insurance", "weather-risk"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["insurance"],
+    "summary": "Weather-index crop insurance product for notified crops and areas, with coverage and season varying by state notification.",
+    "benefitDetails": {"amount": "Premium, sum insured, and claim depend on notified crop, area, and weather triggers", "verificationRequired": true},
+    "eligibilitySummary": "Farmers in notified crop-area-season combinations who meet enrolment rules.",
+    "applicationRoute": "Check current Tamil Nadu notification and enrolment deadline on the crop-insurance portal or with the bank/authorized channel.",
+    "officialSources": [{"url": "https://pmfby.gov.in/", "sourceType": "official-crop-insurance-portal", "supports": ["crop insurance scheme information"]}],
+    "status": "verify-current-season",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Separate weather-index product; do not assume it is offered for all Tamil Nadu districts or crops each season."
+  },
+  {
+    "schemeId": "central-national-crop-insurance-portal",
+    "name": "National Crop Insurance Portal – farmer services",
+    "category": ["agriculture", "insurance", "application-status"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["insurance-service", "status-check"],
+    "summary": "Online access point for crop-insurance scheme information, notifications, enrolment, and claim-related services.",
+    "benefitDetails": {"amount": "Service record; insurance benefit depends on individual policy and season", "verificationRequired": true},
+    "eligibilitySummary": "Use depends on the current crop-insurance scheme and notified season.",
+    "applicationRoute": "Use the PMFBY portal and verify the applicant's crop, district, season, and policy status.",
+    "officialSources": [{"url": "https://pmfby.gov.in/", "sourceType": "official-portal", "supports": ["crop insurance portal"]}],
+    "status": "active-portal",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal entry/service record, not a second insurance policy; keep distinct from PMFBY and RWBCIS."
+  },
+  {
+    "schemeId": "central-kcc-fisheries",
+    "name": "Kisan Credit Card (KCC) – Fisheries and Aquaculture",
+    "category": ["fisheries", "aquaculture", "credit", "working-capital"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-credit"],
+    "summary": "Working-capital credit route for eligible fisheries and aquaculture activities through participating banks.",
+    "benefitDetails": {"amount": "Credit limit and interest terms depend on current rules and bank assessment", "verificationRequired": true},
+    "eligibilitySummary": "Fishers, fish farmers, and other eligible fisheries operators meeting current bank and scheme requirements.",
+    "applicationRoute": "Ask a participating bank or district fisheries office for current eligibility and documents.",
+    "officialSources": [{"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-fisheries-portal", "supports": ["fisheries programme context"]}, {"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["fisheries department"]}],
+    "status": "verify-current-bank-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Loan, not grant. A dedicated current application page was not confirmed in this collection."
+  },
+  {
+    "schemeId": "central-fisheries-aquaculture-infrastructure-fund",
+    "name": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+    "category": ["fisheries", "aquaculture", "infrastructure", "rural-enterprise"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["credit-linked-infrastructure-finance"],
+    "summary": "Financing framework for eligible fisheries and aquaculture infrastructure projects.",
+    "benefitDetails": {"amount": "Project financing and interest terms depend on current fund rules and lender appraisal", "verificationRequired": true},
+    "eligibilitySummary": "Eligible government entities, cooperatives, entrepreneurs, and other applicants under current guidelines.",
+    "applicationRoute": "Verify whether the fund is currently accepting projects and consult the official fisheries department/lender.",
+    "officialSources": [{"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["fisheries infrastructure programme information"]}, {"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-fisheries-portal", "supports": ["fisheries programme information"]}],
+    "status": "verify-current-fund-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Do not represent as a direct household grant; current fund availability must be confirmed."
+  },
+  {
+    "schemeId": "central-pm-matsya-kisan-samridhi-sah-yojana",
+    "name": "Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana (PM-MKSSY)",
+    "category": ["fisheries", "aquaculture", "formalization", "insurance"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["formalization-support", "insurance-facilitation", "enterprise-support"],
+    "summary": "Fisheries sub-scheme supporting formalization, access to institutional finance, aquaculture insurance facilitation, and performance-linked support for eligible stakeholders.",
+    "benefitDetails": {"amount": "Component-specific ceilings and conditions must be checked in current guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Varies for individual fishers, fish farmers, micro-enterprises, and other eligible fisheries stakeholders.",
+    "applicationRoute": "Check the PMMSY portal and district fisheries office for current registration and component instructions.",
+    "officialSources": [{"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-portal", "supports": ["PM-MKSSY and fisheries scheme information"]}, {"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["Department of Fisheries"]}],
+    "status": "verify-current-component-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm remaining scheme period, application status, and Tamil Nadu onboarding; no specific benefit amount asserted."
+  },
+  {
+    "schemeId": "central-pmmsy-insurance-fishers",
+    "name": "PMMSY Fisheries Insurance and Accident Relief components",
+    "category": ["fisheries", "insurance", "occupational-safety"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["group-accident-insurance", "relief"],
+    "summary": "Fisheries programme components may provide insurance or accident-relief support for eligible fishers under current guidelines.",
+    "benefitDetails": {"amount": "Coverage and relief depend on current component guidelines and state implementation", "verificationRequired": true},
+    "eligibilitySummary": "Eligible registered fishers and categories covered by the current state programme.",
+    "applicationRoute": "Contact the district fisheries office or registered fisher cooperative to verify enrolment and claims.",
+    "officialSources": [{"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-portal", "supports": ["fisheries scheme information"]}, {"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["fisheries programme information"]}],
+    "status": "verify-current-coverage",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Insurance product is grouped here as a discoverable benefit area; exact current policy, premium, and coverage require confirmation."
+  },
+  {
+    "schemeId": "central-livestock-insurance",
+    "name": "Livestock Insurance support under animal husbandry programmes",
+    "category": ["livestock", "insurance", "risk-protection"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["livestock-insurance"],
+    "summary": "Government-supported livestock insurance may be available under current animal-husbandry programme components and state implementation.",
+    "benefitDetails": {"amount": "Premium subsidy, covered species, sum insured, and exclusions depend on current guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Owners of livestock covered by the current state insurance component, subject to animal identification and policy terms.",
+    "applicationRoute": "Ask the local veterinary office which livestock species and insurance policies are currently covered in the district.",
+    "officialSources": [{"url": "https://nlm.udyamimitra.in/", "sourceType": "official-portal", "supports": ["NLM innovation/extension and livestock insurance references"]}, {"url": "https://ahd.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["local animal husbandry referral"]}],
+    "status": "verify-current-state-policy",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "No active universal Tamil Nadu livestock insurance rate was verified; check the actual insurer policy and government notification."
+  },
+  {
+    "schemeId": "central-pmjjby",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "category": ["insurance", "life-insurance", "social-protection"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["life-insurance"],
+    "summary": "One-year renewable life insurance cover offered through participating banks and post offices to eligible account holders.",
+    "benefitDetails": {"amount": "Current premium and cover amount are subject to official annual notification", "verificationRequired": true},
+    "eligibilitySummary": "Eligible age-band account holders with consent and sufficient account balance for premium debit.",
+    "applicationRoute": "Enrol through a participating bank or post office; verify current premium, age limits, and exclusions.",
+    "officialSources": [{"url": "https://jansuraksha.gov.in/", "sourceType": "official-portal", "supports": ["PMJJBY policy and enrolment information"]}],
+    "status": "active-scheme-verify-annual-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "General social-insurance product for rural households, not agriculture-specific. Verify current policy year details."
+  },
+  {
+    "schemeId": "central-pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "category": ["insurance", "personal-accident", "social-protection"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["accident-insurance"],
+    "summary": "One-year renewable accident insurance cover through participating banks and post offices.",
+    "benefitDetails": {"amount": "Current premium, age limits, and benefit amounts are subject to official annual policy terms", "verificationRequired": true},
+    "eligibilitySummary": "Eligible bank/post-office account holders who consent to annual premium debit.",
+    "applicationRoute": "Enrol through a participating bank or post office and read the current policy exclusions.",
+    "officialSources": [{"url": "https://jansuraksha.gov.in/", "sourceType": "official-portal", "supports": ["PMSBY policy and enrolment information"]}],
+    "status": "active-scheme-verify-annual-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "General rural household protection product; not an agriculture crop policy."
+  },
+  {
+    "schemeId": "central-atal-pension-yojana",
+    "name": "Atal Pension Yojana (APY)",
+    "category": ["pension", "social-security", "informal-workers"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["contributory-pension"],
+    "summary": "Contributory pension scheme accessed through participating banks and post offices for eligible subscribers.",
+    "benefitDetails": {"amount": "Pension choice and contribution depend on age at joining and current rules", "verificationRequired": true},
+    "eligibilitySummary": "Age, tax status, and account conditions are governed by current APY rules.",
+    "applicationRoute": "Enrol through a participating bank or post office; verify current joining criteria.",
+    "officialSources": [{"url": "https://www.pfrda.org.in/", "sourceType": "official-regulator", "supports": ["APY programme information"]}, {"url": "https://www.npscra.nsdl.co.in/scheme-details.php", "sourceType": "official-service-portal", "supports": ["APY details"]}],
+    "status": "verify-current-eligibility",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "General social protection; do not promise pension eligibility without checking current rules."
+  },
+  {
+    "schemeId": "central-pm-shram-yogi-maandhan",
+    "name": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+    "category": ["pension", "social-security", "unorganised-workers"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["contributory-pension"],
+    "summary": "Contributory pension scheme for eligible unorganized workers.",
+    "benefitDetails": {"amount": "Contribution and pension governed by age at joining and current scheme rules", "verificationRequired": true},
+    "eligibilitySummary": "Unorganized workers meeting current age, income, and exclusion criteria.",
+    "applicationRoute": "Check the Maandhan portal or enrol through an authorized Common Service Centre.",
+    "officialSources": [{"url": "https://maandhan.in/", "sourceType": "official-portal", "supports": ["PM-SYM scheme information"]}],
+    "status": "verify-current-eligibility",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Rural workers may qualify; verify income and exclusion rules before enrollment."
+  },
+  {
+    "schemeId": "central-pm-laghu-vyapari-maandhan",
+    "name": "National Pension Scheme for Traders and Self-Employed Persons (PM-LVM)",
+    "category": ["pension", "social-security", "self-employed"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["contributory-pension"],
+    "summary": "Contributory pension programme for eligible small traders and self-employed persons.",
+    "benefitDetails": {"amount": "Contribution and pension governed by current scheme rules", "verificationRequired": true},
+    "eligibilitySummary": "Small traders/self-employed persons meeting age, turnover, and exclusion rules.",
+    "applicationRoute": "Check Maandhan portal and authorized enrolment centre for current status.",
+    "officialSources": [{"url": "https://maandhan.in/", "sourceType": "official-portal", "supports": ["trader pension scheme information"]}],
+    "status": "verify-current-eligibility",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Potentially relevant to rural microbusiness owners; confirm active enrolment and eligibility."
+  },
+  {
+    "schemeId": "central-national-social-assistance-programme",
+    "name": "National Social Assistance Programme (NSAP)",
+    "category": ["social-protection", "pension", "rural-households"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["social-pension", "family-assistance"],
+    "summary": "Umbrella programme for social pensions and assistance to eligible older people, widows, persons with disabilities, and bereaved low-income households.",
+    "benefitDetails": {"amount": "Central and state contributions and eligibility differ by component; verify Tamil Nadu rates", "verificationRequired": true},
+    "eligibilitySummary": "Varies by NSAP sub-scheme, age, disability, household status, and income criteria.",
+    "applicationRoute": "Apply or check status through the local revenue office, Panchayat, or state service portal.",
+    "officialSources": [{"url": "https://nsap.nic.in/", "sourceType": "official-portal", "supports": ["NSAP components and beneficiary information"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["service application referral"]}],
+    "status": "verify-current-state-benefit",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Umbrella record; component records follow for discoverability. Do not assume central amounts equal Tamil Nadu payments."
+  },
+  {
+    "schemeId": "central-ignoaps",
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "category": ["social-protection", "pension", "older-persons"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["social-pension"],
+    "summary": "NSAP old-age pension component for eligible older persons from qualifying households.",
+    "benefitDetails": {"amount": "Central and Tamil Nadu top-up amounts depend on age and current state rules", "verificationRequired": true},
+    "eligibilitySummary": "Age and household eligibility are determined under current central and Tamil Nadu rules.",
+    "applicationRoute": "Contact the local revenue office/Panchayat or use the Tamil Nadu service route to check enrollment.",
+    "officialSources": [{"url": "https://nsap.nic.in/", "sourceType": "official-portal", "supports": ["old-age pension component"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["application services"]}],
+    "status": "verify-current-state-benefit",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Check current Tamil Nadu pension amount and applicant eligibility; avoid quoting old rates."
+  },
+  {
+    "schemeId": "central-ignwps",
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "category": ["social-protection", "pension", "widows"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["social-pension"],
+    "summary": "NSAP pension component for eligible widows from qualifying households.",
+    "benefitDetails": {"amount": "Central and Tamil Nadu top-up amounts depend on current rules and eligibility", "verificationRequired": true},
+    "eligibilitySummary": "Widow status, age, and household criteria apply under current scheme rules.",
+    "applicationRoute": "Contact the local revenue office/Panchayat or Tamil Nadu service centre for eligibility and application.",
+    "officialSources": [{"url": "https://nsap.nic.in/", "sourceType": "official-portal", "supports": ["widow pension component"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["service application"]}],
+    "status": "verify-current-state-benefit",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Confirm Tamil Nadu top-up and current age/income requirements."
+  },
+  {
+    "schemeId": "central-igndps",
+    "name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "category": ["social-protection", "pension", "disability"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["social-pension"],
+    "summary": "NSAP pension component for eligible persons with severe or multiple disabilities in qualifying households.",
+    "benefitDetails": {"amount": "Central and Tamil Nadu top-up amounts depend on current rules", "verificationRequired": true},
+    "eligibilitySummary": "Disability, age, and household criteria are defined by current scheme guidelines.",
+    "applicationRoute": "Contact the local revenue office or Tamil Nadu service centre; confirm required disability documentation.",
+    "officialSources": [{"url": "https://nsap.nic.in/", "sourceType": "official-portal", "supports": ["disability pension component"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["application referral"]}],
+    "status": "verify-current-state-benefit",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Current disability threshold and benefit amount must be checked against official rules."
+  },
+  {
+    "schemeId": "central-national-family-benefit-scheme",
+    "name": "National Family Benefit Scheme (NFBS)",
+    "category": ["social-protection", "family-assistance", "bereavement"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["one-time-assistance"],
+    "summary": "NSAP assistance component for eligible households following the death of the primary breadwinner.",
+    "benefitDetails": {"amount": "Verify current assistance amount and state processing rules", "verificationRequired": true},
+    "eligibilitySummary": "Household and deceased breadwinner criteria apply under current guidelines.",
+    "applicationRoute": "Contact the local revenue office/Panchayat or Tamil Nadu service centre promptly for deadlines and documents.",
+    "officialSources": [{"url": "https://nsap.nic.in/", "sourceType": "official-portal", "supports": ["NFBS component"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["government service route"]}],
+    "status": "verify-current-state-benefit",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Check the current Tamil Nadu assistance amount, evidence requirements, and filing time limit."
+  },
+  {
+    "schemeId": "central-annapurna-scheme",
+    "name": "Annapurna Scheme",
+    "category": ["social-protection", "food-security", "older-persons"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["food-entitlement"],
+    "summary": "Food-security support historically listed under NSAP for eligible older persons not receiving an old-age pension.",
+    "benefitDetails": {"amount": "Current operational status and entitlement must be verified with Tamil Nadu authorities", "verificationRequired": true},
+    "eligibilitySummary": "Verify current state implementation and whether the applicant is covered by another pension or food entitlement.",
+    "applicationRoute": "Check with the local revenue office and Public Distribution System authority before presenting as active.",
+    "officialSources": [{"url": "https://nsap.nic.in/", "sourceType": "official-portal", "supports": ["NSAP component information"]}],
+    "status": "verify-current-status-before-use",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Included as a discovery lead only; historical listing does not establish current Tamil Nadu availability."
+  },
+  {
+    "schemeId": "central-national-food-security-act-pds",
+    "name": "National Food Security Act (NFSA) – Public Distribution System entitlements",
+    "category": ["food-security", "rural-households", "public-distribution"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["food-entitlement"],
+    "summary": "Statutory food entitlement framework delivered through state ration-card and Public Distribution System arrangements.",
+    "benefitDetails": {"amount": "Commodity, quantity, and price depend on current central and Tamil Nadu rules", "verificationRequired": true},
+    "eligibilitySummary": "Household category and ration-card status determine entitlement under current rules.",
+    "applicationRoute": "Use the Tamil Nadu Civil Supplies/PDS service route or local fair-price shop to check card and entitlement status.",
+    "officialSources": [{"url": "https://nfsa.gov.in/", "sourceType": "official-portal", "supports": ["NFSA entitlements"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["ration-card service referral"]}],
+    "status": "active-framework-verify-state-entitlement",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Use state-specific ration-card categories and current monthly entitlements; do not hardcode outdated quantities."
+  },
+  {
+    "schemeId": "central-pradhan-mantri-ujjwala-yojana",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "category": ["rural-households", "clean-energy", "women"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["LPG-connection-support"],
+    "summary": "LPG access programme for eligible adult women from qualifying households, subject to current application and connection rules.",
+    "benefitDetails": {"amount": "Connection and refill support depend on current government notifications", "verificationRequired": true},
+    "eligibilitySummary": "Eligible adult women from households meeting current PMUY criteria and not already holding an LPG connection.",
+    "applicationRoute": "Apply through an authorized LPG distributor or the official PMUY route; verify current documents and benefits.",
+    "officialSources": [{"url": "https://www.pmuy.gov.in/", "sourceType": "official-portal", "supports": ["PMUY eligibility and application information"]}],
+    "status": "verify-current-benefit",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Check current connection and refill assistance; avoid promising a recurring subsidy without current notice."
+  },
+  {
+    "schemeId": "central-pradhan-mantri-jan-dhan-yojana",
+    "name": "Pradhan Mantri Jan-Dhan Yojana (PMJDY)",
+    "category": ["financial-inclusion", "banking", "rural-households"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-account-access", "financial-services"],
+    "summary": "Financial-inclusion programme supporting access to basic bank accounts and related eligible services.",
+    "benefitDetails": {"amount": "Not a standalone grant; account features and insurance eligibility depend on current rules", "verificationRequired": true},
+    "eligibilitySummary": "Residents without a qualifying bank account may enquire through a participating bank.",
+    "applicationRoute": "Contact a bank branch or banking correspondent; confirm account and insurance conditions directly.",
+    "officialSources": [{"url": "https://pmjdy.gov.in/", "sourceType": "official-portal", "supports": ["PMJDY programme information"]}],
+    "status": "active-programme",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Distinguish account access from separately administered insurance and credit benefits."
+  },
+  {
+    "schemeId": "central-pradhan-mantri-mudra-yojana",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "category": ["rural-enterprise", "microbusiness", "credit"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-loan"],
+    "summary": "Collateral-free credit route through eligible lenders for qualifying micro and small non-farm income-generating activities.",
+    "benefitDetails": {"amount": "Loan category and ceiling depend on current rules and lender appraisal", "verificationRequired": true},
+    "eligibilitySummary": "Eligible microbusiness applicants and activities; loan approval is not guaranteed.",
+    "applicationRoute": "Apply through a participating bank, NBFC, or MFI; never pay an agent for a promised sanction.",
+    "officialSources": [{"url": "https://www.mudra.org.in/", "sourceType": "official-portal", "supports": ["MUDRA loan information"]}],
+    "status": "active-credit-scheme-verify-lender",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Loan, not subsidy. Current product names, limits, and eligibility must be checked with lender."
+  },
+  {
+    "schemeId": "central-prime-ministers-employment-generation-programme",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "category": ["rural-enterprise", "employment", "microbusiness"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["credit-linked-margin-money-subsidy", "entrepreneurship-support"],
+    "summary": "Credit-linked programme supporting establishment of eligible new micro-enterprises, including rural units.",
+    "benefitDetails": {"amount": "Subsidy rate and project limits depend on applicant category, rural/urban location, and current guidelines", "verificationRequired": true},
+    "eligibilitySummary": "New projects meeting current PMEGP applicant, activity, and project-cost conditions.",
+    "applicationRoute": "Apply through the official KVIC PMEGP portal and implementing agency; verify current bank and margin-money rules.",
+    "officialSources": [{"url": "https://www.kviconline.gov.in/pmegpeportal/", "sourceType": "official-application-portal", "supports": ["PMEGP application and scheme information"]}],
+    "status": "verify-current-guidelines",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Credit-linked subsidy; approval depends on bank appraisal and eligibility."
+  },
+  {
+    "schemeId": "central-pm-vishwakarma",
+    "name": "PM Vishwakarma",
+    "category": ["rural-enterprise", "traditional-artisans", "skill-development"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["skill-training", "toolkit-support", "credit-support", "market-linkage"],
+    "summary": "Support for eligible traditional artisans and craftspeople in notified trades, including training and other scheme benefits.",
+    "benefitDetails": {"amount": "Toolkit and credit benefits subject to current scheme conditions and approval", "verificationRequired": true},
+    "eligibilitySummary": "Adult artisan in one of the notified trades, subject to household and prior-loan exclusions in current guidelines.",
+    "applicationRoute": "Register through the official portal or assisted enrolment channel and complete local verification.",
+    "officialSources": [{"url": "https://pmvishwakarma.gov.in/", "sourceType": "official-portal", "supports": ["eligibility and scheme information"]}],
+    "status": "active-portal-verify-local-enrolment",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Official eligibility page checked; verify trade, household, and prior-credit criteria."
+  },
+  {
+    "schemeId": "central-stand-up-india",
+    "name": "Stand-Up India",
+    "category": ["rural-enterprise", "entrepreneurship", "women", "sc-st"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-loan", "entrepreneurship-support"],
+    "summary": "Bank finance programme for eligible greenfield enterprises promoted by women and SC/ST entrepreneurs, subject to current rules.",
+    "benefitDetails": {"amount": "Loan size and terms depend on current guidelines and bank appraisal", "verificationRequired": true},
+    "eligibilitySummary": "Eligible women or SC/ST entrepreneurs establishing qualifying greenfield businesses.",
+    "applicationRoute": "Check current programme status and apply through a participating bank or official portal.",
+    "officialSources": [{"url": "https://www.standupmitra.in/", "sourceType": "official-portal", "supports": ["Stand-Up India scheme information"]}],
+    "status": "verify-current-programme-status",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Credit, not grant. Verify current continuation and product terms before advising."
+  },
+  {
+    "schemeId": "central-pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "category": ["microbusiness", "street-vendors", "credit"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["working-capital-loan", "digital-transaction-incentive"],
+    "summary": "Working-capital support for eligible street vendors in participating urban local bodies; inclusion is limited and should not be assumed for rural vendors.",
+    "benefitDetails": {"amount": "Loan tranches and incentives depend on current rules and urban-body coverage", "verificationRequired": true},
+    "eligibilitySummary": "Vendors meeting scheme and urban local body identification requirements.",
+    "applicationRoute": "Check the official portal and relevant urban local body; do not list as a universal rural benefit.",
+    "officialSources": [{"url": "https://pmsvanidhi.mohua.gov.in/", "sourceType": "official-portal", "supports": ["vendor eligibility and scheme information"]}],
+    "status": "verify-location-and-current-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Included as an adjacent microbusiness record only; confirm local-body coverage and current scheme status."
+  },
+  {
+    "schemeId": "central-pmfme-credit-linked-subsidy",
+    "name": "PMFME – Individual Micro Food Processing Enterprise support",
+    "category": ["rural-enterprise", "food-processing", "value-addition"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["credit-linked-capital-subsidy", "training"],
+    "summary": "PMFME component for eligible individual micro food-processing units and upgrading/formalization activities.",
+    "benefitDetails": {"amount": "Current subsidy rate, ceiling, and contribution must be verified in guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Existing or eligible micro food-processing units meeting product, registration, and project conditions.",
+    "applicationRoute": "Check the PMFME portal and Tamil Nadu nodal agency for current application window.",
+    "officialSources": [{"url": "https://pmfme.mofpi.gov.in/", "sourceType": "official-ministry-portal", "supports": ["PMFME application information"]}],
+    "status": "verify-current-application-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Subcomponent of PMFME; avoid duplicate counting as a second umbrella scheme."
+  },
+  {
+    "schemeId": "central-pmfme-common-infrastructure",
+    "name": "PMFME – Common Infrastructure support",
+    "category": ["rural-enterprise", "food-processing", "common-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["infrastructure-support", "credit-linked-support"],
+    "summary": "PMFME component for eligible common infrastructure used by producer groups, cooperatives, SHGs, or other approved entities.",
+    "benefitDetails": {"amount": "Project limits, subsidy, and applicant contribution require current guideline verification", "verificationRequired": true},
+    "eligibilitySummary": "Eligible groups and organizations with qualifying common infrastructure projects.",
+    "applicationRoute": "Consult the PMFME state nodal agency and official guidelines before preparing the project.",
+    "officialSources": [{"url": "https://pmfme.mofpi.gov.in/", "sourceType": "official-ministry-portal", "supports": ["PMFME component information"]}],
+    "status": "verify-current-application-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "PMFME subcomponent, not a separate national umbrella scheme."
+  },
+  {
+    "schemeId": "central-pmfme-shg-seed-capital",
+    "name": "PMFME – Seed Capital support to SHG members",
+    "category": ["rural-enterprise", "food-processing", "self-help-groups", "women"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["seed-capital", "group-enterprise-support"],
+    "summary": "PMFME component intended to provide seed capital support to eligible SHG members for food-processing activities.",
+    "benefitDetails": {"amount": "Current per-member support and terms must be confirmed in official guidelines", "verificationRequired": true},
+    "eligibilitySummary": "SHG members engaged in eligible food-processing activities through participating institutions.",
+    "applicationRoute": "Contact the SHG federation, DAY-NRLM/TNSRLM institution, and PMFME nodal agency.",
+    "officialSources": [{"url": "https://pmfme.mofpi.gov.in/", "sourceType": "official-ministry-portal", "supports": ["PMFME component information"]}],
+    "status": "verify-current-application-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Subcomponent and state implementation availability require verification."
+  },
+  {
+    "schemeId": "central-day-nrlm-self-help-groups",
+    "name": "DAY-NRLM – Self-Help Group formation and institution building",
+    "category": ["rural-development", "self-help-groups", "women", "capacity-building"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["group-formation", "capacity-building", "financial-linkage"],
+    "summary": "Support for organizing rural women into SHGs and strengthening federations and community institutions.",
+    "benefitDetails": {"amount": "Support depends on group stage and local mission guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Rural women and households enrolled through eligible mission structures.",
+    "applicationRoute": "Contact the village-level SHG facilitator, Panchayat-level federation, or block rural livelihoods mission.",
+    "officialSources": [{"url": "https://aajeevika.gov.in/", "sourceType": "official-programme-portal", "supports": ["DAY-NRLM"]}, {"url": "https://www.tnrd.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["rural development referral"]}],
+    "status": "verify-local-implementation",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Related service component of the DAY-NRLM umbrella record; local SHG coverage varies."
+  },
+  {
+    "schemeId": "central-day-nrlm-interest-subvention",
+    "name": "DAY-NRLM – SHG bank-linkage and interest support",
+    "category": ["rural-development", "self-help-groups", "credit", "women"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["bank-credit", "interest-support"],
+    "summary": "Credit-linkage and interest-support arrangements for eligible SHGs under current national and state rules.",
+    "benefitDetails": {"amount": "Interest support and loan terms depend on current bank and state guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Eligible SHGs with required grading, bank linkage, and compliance.",
+    "applicationRoute": "Check with the SHG federation and lending bank for current Tamil Nadu interest-support terms.",
+    "officialSources": [{"url": "https://aajeevika.gov.in/", "sourceType": "official-programme-portal", "supports": ["SHG livelihood mission"]}, {"url": "https://www.tnrd.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["state rural development referral"]}],
+    "status": "verify-current-interest-terms",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Do not quote a uniform interest rate without the current Tamil Nadu/bank circular."
+  },
+  {
+    "schemeId": "central-day-nrlm-livelihood-farm",
+    "name": "DAY-NRLM – Farm livelihoods and producer groups",
+    "category": ["rural-development", "agriculture", "self-help-groups", "livelihoods"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["livelihood-support", "training", "market-linkage"],
+    "summary": "Farm-livelihood support delivered through eligible SHGs, producer groups, and community institutions.",
+    "benefitDetails": {"amount": "Activity and group specific; verify local mission plan", "verificationRequired": true},
+    "eligibilitySummary": "Rural women and producer groups participating in local mission activities.",
+    "applicationRoute": "Ask the block mission team or SHG federation whether farm-livelihood activities are available.",
+    "officialSources": [{"url": "https://aajeevika.gov.in/", "sourceType": "official-programme-portal", "supports": ["rural livelihoods information"]}],
+    "status": "verify-local-implementation",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Programme activity can include agricultural livelihoods; no fixed individual cash grant asserted."
+  },
+  {
+    "schemeId": "central-mgnrega-individual-assets",
+    "name": "MGNREGA – Eligible individual beneficiary assets",
+    "category": ["rural-development", "agriculture", "water-conservation", "livelihood-assets"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["wage-employment", "asset-creation"],
+    "summary": "MGNREGA works may create eligible individual assets for specified vulnerable households and landholders, subject to Schedule I and local approval.",
+    "benefitDetails": {"amount": "Work and asset scope are approved locally; this is not a cash grant", "verificationRequired": true},
+    "eligibilitySummary": "Households and land categories eligible under current MGNREGA rules; Gram Sabha/Panchayat planning and technical approval apply.",
+    "applicationRoute": "Request work through the Gram Panchayat and ask whether the proposed asset is permissible under the current work shelf.",
+    "officialSources": [{"url": "https://nrega.dord.gov.in/", "sourceType": "official-portal", "supports": ["MGNREGA framework"]}],
+    "status": "verify-local-plan-and-eligibility",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Component of MGNREGA. Do not promise an asset; local planning and statutory eligibility control."
+  },
+  {
+    "schemeId": "central-mgnrega-farm-pond-water-conservation",
+    "name": "MGNREGA – Water conservation and farm water assets",
+    "category": ["rural-development", "agriculture", "water-conservation"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["wage-employment", "community-or-individual-asset"],
+    "summary": "Permissible MGNREGA works may include water conservation, harvesting, and irrigation-related assets in approved local plans.",
+    "benefitDetails": {"amount": "Work depends on approved estimate and local work shelf", "verificationRequired": true},
+    "eligibilitySummary": "Work type, site, and household eligibility must comply with current MGNREGA schedule and local approvals.",
+    "applicationRoute": "Contact the Gram Panchayat or block programme officer to request and verify a permissible work.",
+    "officialSources": [{"url": "https://nrega.dord.gov.in/", "sourceType": "official-portal", "supports": ["MGNREGA works and records"]}],
+    "status": "verify-local-work-shelf",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Not a separate subsidy. Asset creation is subject to work approval and MGNREGA procedures."
+  },
+  {
+    "schemeId": "central-pmayg-house-construction",
+    "name": "PMAY-G – Rural house assistance",
+    "category": ["rural-development", "housing", "social-protection"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["housing-assistance"],
+    "summary": "Housing assistance for eligible rural households identified and sanctioned under current PMAY-G rules.",
+    "benefitDetails": {"amount": "Current unit assistance and installments depend on location and latest guidelines", "verificationRequired": true},
+    "eligibilitySummary": "Households included in the eligible beneficiary list and meeting current verification criteria.",
+    "applicationRoute": "Check beneficiary status with the Panchayat/Block Development Office and official PMAY-G records.",
+    "officialSources": [{"url": "https://pmayg.nic.in/", "sourceType": "official-portal", "supports": ["PMAY-G beneficiary and programme information"]}],
+    "status": "verify-current-list-and-amount",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "The central portal was unavailable during collection; confirm active phase, Tamil Nadu assistance, and beneficiary list."
+  },
+  {
+    "schemeId": "central-sbm-g-household-toilet",
+    "name": "Swachh Bharat Mission (Grameen) – Household sanitation support",
+    "category": ["rural-development", "sanitation", "household-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["sanitation-support"],
+    "summary": "Rural sanitation programme; household toilet assistance is governed by current eligibility and state implementation rules.",
+    "benefitDetails": {"amount": "Verify current Tamil Nadu amount, eligibility, and whether new applications are accepted", "verificationRequired": true},
+    "eligibilitySummary": "Households meeting current sanitation component criteria and local verification.",
+    "applicationRoute": "Ask the Panchayat or block office about current SBM-G household support.",
+    "officialSources": [{"url": "https://sbm.gov.in/sbmphase2/", "sourceType": "official-portal", "supports": ["SBM-G programme information"]}, {"url": "https://www.tnrd.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["state implementation referral"]}],
+    "status": "verify-current-state-component",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Subcomponent record; do not infer an open household grant from the programme portal alone."
+  },
+  {
+    "schemeId": "central-jjm-village-water-supply",
+    "name": "Jal Jeevan Mission – Village water supply and source sustainability",
+    "category": ["rural-development", "drinking-water", "water-conservation"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-infrastructure", "community-service"],
+    "summary": "Village-level piped water, source sustainability, greywater management, and community participation activities.",
+    "benefitDetails": {"amount": "Public works and services, not an individual cash subsidy", "verificationRequired": true},
+    "eligibilitySummary": "Village and household service status depends on the local approved water-supply scheme.",
+    "applicationRoute": "Report service needs to the Panchayat or local water-supply authority and check village status.",
+    "officialSources": [{"url": "https://jaljeevanmission.gov.in/", "sourceType": "official-portal", "supports": ["JJM water and sustainability objectives"]}],
+    "status": "verify-local-service",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Specific implementation and service levels should be checked for each village."
+  },
+  {
+    "schemeId": "central-pmgsy-road-access",
+    "name": "PMGSY – Rural road connectivity",
+    "category": ["rural-development", "roads", "village-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["public-infrastructure"],
+    "summary": "Rural road connectivity and upgrading through approved projects and eligibility criteria.",
+    "benefitDetails": {"amount": "No direct household cash benefit", "verificationRequired": true},
+    "eligibilitySummary": "Habitation and road projects are selected under current programme norms.",
+    "applicationRoute": "Enquire through Panchayat and district rural development engineering authorities about road proposals and works.",
+    "officialSources": [{"url": "https://pmgsy.nic.in/", "sourceType": "official-portal", "supports": ["PMGSY programme"]}, {"url": "https://www.tnrd.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["rural development referral"]}],
+    "status": "verify-local-project",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Infrastructure project record, not an individual subsidy."
+  },
+  {
+    "schemeId": "central-pm-adarsh-gram-yojana",
+    "name": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY)",
+    "category": ["rural-development", "sc-community", "village-infrastructure"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["village-development", "livelihood-project-support"],
+    "summary": "Programme supporting development of eligible Scheduled Caste-majority villages and related livelihood projects.",
+    "benefitDetails": {"amount": "Project-based; individual benefits depend on approved village plan", "verificationRequired": true},
+    "eligibilitySummary": "Village and project eligibility depend on SC population and current programme norms.",
+    "applicationRoute": "Check with the district Adi Dravidar and Tribal Welfare office and Panchayat about village selection and projects.",
+    "officialSources": [{"url": "https://socialjustice.gov.in/schemes/25", "sourceType": "official-ministry", "supports": ["PM-AJAY programme"]}],
+    "status": "verify-village-selection",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Project/village scheme, not a universal direct household subsidy."
+  },
+  {
+    "schemeId": "central-digital-india-common-service-centres",
+    "name": "Common Service Centres (CSC) – assisted digital government services",
+    "category": ["rural-development", "digital-services", "scheme-access"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["assisted-service"],
+    "summary": "Assisted access channel for digital public services, applications, and selected financial services in rural areas.",
+    "benefitDetails": {"amount": "Service fees, if any, are service-specific; not a cash benefit", "verificationRequired": true},
+    "eligibilitySummary": "Residents may use a functioning CSC; service availability depends on the centre and portal.",
+    "applicationRoute": "Find an authorized CSC and verify service fees before submitting applications.",
+    "officialSources": [{"url": "https://csc.gov.in/", "sourceType": "official-portal", "supports": ["CSC information"]}, {"url": "https://www.tnesevai.tn.gov.in/", "sourceType": "Tamil Nadu service portal", "supports": ["e-Sevai services"]}],
+    "status": "active-service-directory",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Useful kiosk/service channel record; distinguish authorized government service fees from private charges."
+  },
+  {
+    "schemeId": "tn-kalaignarin-all-village-integrated-agriculture-development",
+    "name": "Kalaignarin All Village Integrated Agriculture Development Programme (KAVIADP)",
+    "category": ["agriculture", "rural-development", "village-development"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["integrated-village-support", "agriculture-services"],
+    "summary": "Tamil Nadu programme focused on integrated agricultural development in selected villages, with activities delivered through state departments.",
+    "benefitDetails": {"amount": "Village, activity, and annual budget specific; verify current village coverage", "verificationRequired": true},
+    "eligibilitySummary": "Farmer support depends on selection of the village and the specific activity available there.",
+    "applicationRoute": "Check the state agriculture portal and ask the village/block agriculture office whether the village is included.",
+    "officialSources": [{"url": "https://www.tnagrisnet.tn.gov.in/KaviaDP/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["KAVIADP service entry"]}, {"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu department portal", "supports": ["state agriculture schemes"]}],
+    "status": "verify-current-village-coverage",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Portal page found; current village list and individual benefit schedule were not extracted."
+  },
+  {
+    "schemeId": "tn-chief-ministers-uzhavar-nala-sevai-maiyam",
+    "name": "Chief Minister's Uzhavar Nala Sevai Maiyam",
+    "category": ["agriculture", "farmer-services", "digital-services"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["assisted-service", "scheme-discovery"],
+    "summary": "Tamil Nadu farmer-service centre initiative intended to provide agricultural services and scheme assistance.",
+    "benefitDetails": {"amount": "Service entry; benefits depend on the scheme applied for", "verificationRequired": true},
+    "eligibilitySummary": "Farmers may access services according to centre availability and service rules.",
+    "applicationRoute": "Use the official KAVIADP/farmer-service portal or contact the local agriculture office to locate a centre.",
+    "officialSources": [{"url": "https://www.tnagrisnet.tn.gov.in/KaviaDP/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["Uzhavar Nala Sevai Maiyam entry"]}],
+    "status": "verify-local-centre-and-services",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "The portal returned the Tamil service title; detailed service list and operating locations require confirmation."
+  },
+  {
+    "schemeId": "tn-mannuyir-kaathu-mannuyir-kaappom",
+    "name": "Tamil Nadu Chief Minister's Mannuyir Kaathu Mannuyir Kaappom Scheme",
+    "category": ["agriculture", "soil-health", "sustainable-farming"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["soil-conservation", "input-support", "training"],
+    "summary": "Tamil Nadu soil and sustainable agriculture initiative; activity and farmer support are defined by current government orders and annual implementation.",
+    "benefitDetails": {"amount": "Current components, amounts, and eligibility require official order verification", "verificationRequired": true},
+    "eligibilitySummary": "Depends on the current year activity and district implementation.",
+    "applicationRoute": "Ask the block agriculture office for the current government order, activity list, and application window.",
+    "officialSources": [{"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["current state agriculture scheme referral"]}, {"url": "https://www.tn.gov.in/", "sourceType": "Tamil Nadu government portal", "supports": ["official government orders and announcements"]}],
+    "status": "verify-current-government-order",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "State scheme lead; do not publish benefit amounts until the relevant current GO is attached."
+  },
+  {
+    "schemeId": "tn-tamil-nadu-millet-mission",
+    "name": "Tamil Nadu Millet Mission",
+    "category": ["agriculture", "millets", "crop-diversification"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["seed-support", "demonstration", "market-linkage"],
+    "summary": "State millet promotion programme with interventions depending on current annual plan and notified areas.",
+    "benefitDetails": {"amount": "Crop and district-specific; verify current state order and application window", "verificationRequired": true},
+    "eligibilitySummary": "Farmers and groups in participating districts and activities.",
+    "applicationRoute": "Check current millet mission coverage with the district agriculture office.",
+    "officialSources": [{"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["state agriculture scheme directory"]}, {"url": "https://agritech.tnau.ac.in/", "sourceType": "TNAU extension portal", "supports": ["millet crop guidance"]}],
+    "status": "verify-current-state-order",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "State programme lead; exact current activities and benefits need official notification."
+  },
+  {
+    "schemeId": "tn-farmers-welfare-board",
+    "name": "Tamil Nadu Farmers Welfare Board – eligible welfare assistance",
+    "category": ["agriculture", "farmer-welfare", "social-protection"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["welfare-assistance", "insurance-or-relief-referral"],
+    "summary": "State farmer-welfare registration and assistance route; specific benefits depend on current board rules and registered status.",
+    "benefitDetails": {"amount": "Benefit types and amounts require current board rules", "verificationRequired": true},
+    "eligibilitySummary": "Farmer registration and scheme-specific conditions apply.",
+    "applicationRoute": "Ask the local agriculture/revenue office for board registration and current benefit application procedure.",
+    "officialSources": [{"url": "https://www.tnagrisnet.tn.gov.in/", "sourceType": "Tamil Nadu agriculture portal", "supports": ["farmer welfare referral"]}, {"url": "https://www.tn.gov.in/", "sourceType": "Tamil Nadu government portal", "supports": ["state orders"]}],
+    "status": "verify-board-and-current-benefits",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Do not infer specific insurance coverage or payment without current board circular."
+  },
+  {
+    "schemeId": "tn-fisheries-savings-cum-relief",
+    "name": "Tamil Nadu Fishermen Savings-cum-Relief Scheme",
+    "category": ["fisheries", "social-protection", "seasonal-relief"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["contributory-relief"],
+    "summary": "State fisheries welfare scheme lead relating to fishermen's savings and relief; current eligibility, contribution, and disbursement conditions must be verified.",
+    "benefitDetails": {"amount": "Current contribution and relief amount require official Tamil Nadu notification", "verificationRequired": true},
+    "eligibilitySummary": "Registered eligible fishers meeting state scheme and seasonal conditions.",
+    "applicationRoute": "Contact the district fisheries office or fishermen cooperative for current enrolment and claims.",
+    "officialSources": [{"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-fisheries-portal", "supports": ["fisheries welfare context"]}, {"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["fisheries department"]}],
+    "status": "verify-state-scheme-and-current-window",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Tamil Nadu-specific terms were not verified from an accessible state scheme page; treat as a lead only."
+  },
+  {
+    "schemeId": "tn-fisheries-lean-season-relief",
+    "name": "Tamil Nadu Fishermen Lean-season / Fishing-ban Period Relief",
+    "category": ["fisheries", "social-protection", "seasonal-relief"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["seasonal-cash-relief"],
+    "summary": "State relief programme lead for eligible fishing households during notified lean or fishing-ban periods.",
+    "benefitDetails": {"amount": "Current amount, period, and covered categories must be confirmed by notification", "verificationRequired": true},
+    "eligibilitySummary": "Registered fishers and household members covered under current state rules and seasonal lists.",
+    "applicationRoute": "Check registration and payment status with the district fisheries office or fishermen cooperative.",
+    "officialSources": [{"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["fisheries policy context"]}, {"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-fisheries-portal", "supports": ["fisheries programme discovery"]}],
+    "status": "verify-state-notification",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "State-specific record pending official Tamil Nadu source and current benefit circular."
+  },
+  {
+    "schemeId": "tn-fisheries-accident-insurance",
+    "name": "Tamil Nadu Fishermen Accident Insurance / Relief",
+    "category": ["fisheries", "insurance", "occupational-safety"],
+    "geography": ["Tamil Nadu"],
+    "benefitType": ["accident-insurance", "relief"],
+    "summary": "State fisheries welfare insurance/relief lead for qualifying registered fishers.",
+    "benefitDetails": {"amount": "Coverage and claim amount require current policy and state order verification", "verificationRequired": true},
+    "eligibilitySummary": "Registration, fishing activity, and incident criteria apply under the current policy.",
+    "applicationRoute": "Notify the district fisheries office/cooperative promptly and request the current claim form and deadline.",
+    "officialSources": [{"url": "https://dof.gov.in/", "sourceType": "official-ministry", "supports": ["fisheries programme reference"]}, {"url": "https://pmmsy.dof.gov.in/", "sourceType": "official-fisheries-portal", "supports": ["fisheries insurance discovery"]}],
+    "status": "verify-policy-before-use",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Do not promise coverage until current insurer, policy, premium, exclusions, and Tamil Nadu notification are confirmed."
+  },
+  {
+    "schemeId": "central-national-biodiversity-farming-extension",
+    "name": "Krishi Vigyan Kendra (KVK) – farmer training and advisory",
+    "category": ["agriculture", "extension", "training", "livestock"],
+    "geography": ["India", "Tamil Nadu"],
+    "benefitType": ["training", "technical-advice", "demonstration"],
+    "summary": "District-level farm science centres provide training, demonstrations, and technical advice across agriculture and allied sectors.",
+    "benefitDetails": {"amount": "Service and training availability varies by KVK; not a cash grant", "verificationRequired": true},
+    "eligibilitySummary": "Farmers and rural stakeholders can enquire about local training and demonstrations.",
+    "applicationRoute": "Contact the nearest KVK or use the ICAR KVK directory to find local services.",
+    "officialSources": [{"url": "https://kvk.icar.gov.in/", "sourceType": "official-directory", "supports": ["KVK locations and services"]}, {"url": "https://agritech.tnau.ac.in/", "sourceType": "TNAU extension portal", "supports": ["Tamil Nadu agricultural advice"]}],
+    "status": "active-service-directory",
+    "lastVerified": "2026-10-14",
+    "verificationNotes": "Directory/service record rather than a subsidy; confirm local KVK contacts and course schedule."
+  }
+]

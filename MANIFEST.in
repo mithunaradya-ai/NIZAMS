@@ -1,0 +1,3 @@
+include README.md
+include PYPI_DESCRIPTION.md
+include LICENSE

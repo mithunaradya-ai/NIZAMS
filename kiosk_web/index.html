@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#103b32">
+  <title>Government Schemes Help</title>
+  <link rel="stylesheet" href="/assets/kiosk.css">
+</head>
+<body>
+  <main id="home" class="screen home-screen">
+    <header class="brand">
+      <span class="brand-mark" aria-hidden="true">◎</span>
+      <div>
+        <p class="eyebrow">CITIZEN INFORMATION KIOSK</p>
+        <h1>Government Schemes Help</h1>
+        <p class="subheading">Choose the language you are comfortable with</p>
+      </div>
+    </header>
+    <section class="language-grid" id="language-grid" aria-label="Choose a language"></section>
+    <p class="privacy-note">No recordings or personal details are saved.</p>
+  </main>
+
+  <main id="kiosk" class="screen kiosk-screen hidden" aria-live="polite">
+    <header class="topbar">
+      <button id="change-language" class="secondary-button" type="button" aria-label="Change language">🌐 <span>Language</span></button>
+      <h1 id="welcome-title">Government Schemes</h1>
+      <button id="reset-button" class="secondary-button" type="button">Start over</button>
+    </header>
+
+    <section class="question-panel" aria-label="Ask about government schemes">
+      <p id="greeting" class="greeting"></p>
+      <div class="voice-area">
+        <button id="speak-button" class="speak-button" type="button" aria-pressed="false">
+          <span id="mic-icon" aria-hidden="true">🎙️</span>
+          <span id="speak-label">Tap to speak</span>
+        </button>
+        <div id="voice-state" class="voice-state" role="status">Ready</div>
+        <canvas id="waveform" width="480" height="82" aria-label="Microphone waveform"></canvas>
+      </div>
+      <form id="question-form" class="question-form">
+        <label for="question">Or type your question</label>
+        <div class="input-row">
+          <input id="question" name="question" maxlength="4000" autocomplete="off" required>
+          <button id="send-button" class="primary-button" type="submit">Ask</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="category-section" aria-labelledby="browse-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">BROWSE BY TOPIC</p>
+          <h2 id="browse-title">What are you looking for?</h2>
+        </div>
+      </div>
+      <div id="category-grid" class="category-grid"></div>
+    </section>
+
+    <section id="result-panel" class="result-panel hidden" aria-live="polite">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SCHEME INFORMATION</p>
+          <h2 id="result-title">Information</h2>
+        </div>
+        <button id="read-button" class="secondary-button hidden" type="button">🔊 Read aloud</button>
+      </div>
+      <p id="transcript" class="transcript"></p>
+      <article id="reply" class="reply-card"></article>
+      <div id="scheme-list" class="scheme-list"></div>
+      <p id="offline-note" class="offline-note hidden"></p>
+    </section>
+    <footer class="footer-note">Information is based on available scheme records. Ask kiosk staff to confirm current details.</footer>
+  </main>
+  <audio id="audio-player" class="visually-hidden" preload="none"></audio>
+  <script src="/assets/kiosk.js" defer></script>
+</body>
+</html>
